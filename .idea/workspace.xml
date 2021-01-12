@@ -10,52 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/AboutMe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/about-me.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/nav/NavBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/nav/nav-bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/profile/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/profile/profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/Work.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/work.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/data.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/files/resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/avatar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/hero.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/profile-picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment=":star2: update portfolio backbone">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,8 +141,16 @@
       <workItem from="1610302875531" duration="1506000" />
       <workItem from="1610307196470" duration="91000" />
       <workItem from="1610472078092" duration="2936000" />
-      <workItem from="1610475032540" duration="645000" />
+      <workItem from="1610475032540" duration="1664000" />
     </task>
+    <task id="LOCAL-00001" summary=":star2: update portfolio backbone">
+      <created>1610475710443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610475710443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value=":star2: update portfolio backbone" />
+    <option name="LAST_COMMIT_MESSAGE" value=":star2: update portfolio backbone" />
   </component>
   <component name="WindowStateProjectService">
     <state x="202" y="404" width="664" height="305" key="#SCSS_Lint" timestamp="1610473107060">
@@ -254,6 +224,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1610306404915" />
+    <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1610475712648">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1610475712648" />
     <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610475016037">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -266,10 +240,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="225" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610226346039" />
-    <state x="660" y="252" key="run.anything.popup" timestamp="1610475677878">
+    <state x="660" y="252" key="run.anything.popup" timestamp="1610476533813">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610475677878" />
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610476533813" />
     <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610472554189">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
