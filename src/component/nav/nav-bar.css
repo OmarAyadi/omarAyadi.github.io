@@ -1,0 +1,79 @@
+:root {
+    --bg: #7510F7;
+    --bg-accent: #484a4d;
+    --text-color: #dadce1;
+    --nav-size: 60px;
+    --item-size: 30px;
+    --border: 1px solid #474a4d;
+    --border-radius: 8px;
+    --speed: 500ms;
+}
+
+.nav-icon {
+    color: #fff;
+    transition: color var(--speed);
+}
+
+.nav-icon:hover {
+    color: #aec6cf;
+}
+
+.nav-menu {
+    background-color: var(--bg);
+    width: var(--nav-size);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: var(--item-size);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-media-icon {
+    display: flex;
+    padding: 0px 0px 0px 17px;
+    list-style: none;
+    height: 40px;
+}
+
+.nav-media-icon a {
+    text-decoration: none;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+ul{
+    width: 100%;
+    /* its children will be flex-items */
+    display: flex;
+    /* move flex-items in column */
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul > :nth-child(4){
+    margin-top: auto;
+}
+
