@@ -10,7 +10,53 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment="" />
+    <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/about/AboutMe.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/about/about-me.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/nav/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/nav/nav-bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/profile/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/work/Work.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/work/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/work/work.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/data.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/files/resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/hero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/profile-picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,12 +82,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1610475340" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1610475444" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1610475212" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1610475340" />
                   </RecentBranch>
                 </list>
               </option>
@@ -135,7 +181,7 @@
       <workItem from="1610302875531" duration="1506000" />
       <workItem from="1610307196470" duration="91000" />
       <workItem from="1610472078092" duration="2936000" />
-      <workItem from="1610475032540" duration="312000" />
+      <workItem from="1610475032540" duration="645000" />
     </task>
     <servers />
   </component>
@@ -176,30 +222,34 @@
     </state>
     <state x="729" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1609850578937" />
     <state x="729" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610227542734" />
-    <state x="169" y="331" width="719" height="452" key="EditFileWatcherDialog" timestamp="1610473048559">
+    <state x="169" y="331" width="719" height="452" key="EditFileWatcherDialog" timestamp="1610475625254">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="169" y="331" width="719" height="452" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610473048559" />
-    <state width="1802" height="334" key="GridCell.Tab.0.bottom" timestamp="1610475015959">
+    <state x="169" y="331" width="719" height="452" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610475625254" />
+    <state width="1802" height="334" key="GridCell.Tab.0.bottom" timestamp="1610475525441">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.bottom/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1610475015959" />
-    <state width="1802" height="334" key="GridCell.Tab.0.center" timestamp="1610475015956">
+    <state width="1802" height="334" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525441" />
+    <state width="1802" height="334" key="GridCell.Tab.0.center" timestamp="1610475525440">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.center/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1610475015956" />
-    <state width="1802" height="334" key="GridCell.Tab.0.left" timestamp="1610475015954">
+    <state width="1802" height="334" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525440" />
+    <state width="1802" height="334" key="GridCell.Tab.0.left" timestamp="1610475525439">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.left/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1610475015954" />
-    <state width="1802" height="334" key="GridCell.Tab.0.right" timestamp="1610475015957">
+    <state width="1802" height="334" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525439" />
+    <state width="1802" height="334" key="GridCell.Tab.0.right" timestamp="1610475525440">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.right/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1610475015957" />
+    <state width="1802" height="334" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525440" />
+    <state x="675" y="237" width="632" height="640" key="RollbackChangesDialog" timestamp="1610475681264">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="675" y="237" width="632" height="640" key="RollbackChangesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610475681264" />
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1610306404915">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -216,6 +266,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="225" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610226346039" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1610475677878">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610475677878" />
     <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610472554189">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
