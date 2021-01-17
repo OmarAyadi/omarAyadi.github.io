@@ -4,7 +4,8 @@ import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import {User_Profile_Data} from "./data";
 import {ThemeProvider} from "./component/theme/ThemeContext";
 import Test from "./component/Test";
-import {Layout, NotFoundScreen} from "./component/screen";
+import {NotFoundScreen} from "./component/screen";
+import {Profile} from "./component/profile";
 
 function App() {
 
@@ -16,8 +17,8 @@ function App() {
         <ThemeProvider>
             <Router basename="/">
                 <Switch>
-                    <Route path="/" exact component={Layout}/>
-                    <Route path="/test" exact component={Test}/>
+                    <Route path="/" exact component={Profile}/>
+                    {/*<Route path="/test" exact component={Test}/>*/}
                     <Route component={NotFoundScreen}></Route>
                 </Switch>
             </Router>

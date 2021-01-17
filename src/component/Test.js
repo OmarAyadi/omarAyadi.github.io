@@ -13,9 +13,6 @@ function Test() {
 
     return (
         <div className="test2">
-            <Layout>
-                <Profile/>
-            </Layout>
 
         </div>
     );

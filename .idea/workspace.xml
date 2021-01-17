@@ -13,11 +13,14 @@
     <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment=":star2: update portfolio backbone">
       <change afterPath="$PROJECT_DIR$/src/component/Test.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/boat/MovingBoat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/cat/MovingCat.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/cat/moving-cat.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/cat/moving-cat.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/cat/moving-cat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/animation/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/lattern/Lantern.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/lattern/lantern.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/animation/lattern/lantern.css.map" afterDir="false" />
@@ -39,8 +42,13 @@
       <change afterPath="$PROJECT_DIR$/src/component/text/.sass-cache/03054aba3fe1d36a328abdd29b50568054aaba77/test-test.scssc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/TestTest.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/apple-design-text/AppleDesignText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/apple-design-text/apple-design-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/apple-design-text/apple-design-text.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/apple-design-text/apple-design-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/console-text/.sass-cache/f8ac3be2a579d85e98ff0899f11bbe924857d1c3/console-text.scssc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/console-text/ConsoleText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/console-text/console-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/console-text/console-text.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/console-text/console-text.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/index.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/luminance-text/.sass-cache/d1bacda5cf3eb08df0cccccf1c483a8ae7e0bd76/luminance-text.scssc" afterDir="false" />
@@ -54,14 +62,19 @@
       <change afterPath="$PROJECT_DIR$/src/component/text/number-rolling-text/number-rolling-text.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/number-rolling-text/number-rolling-text.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/spin-text/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/test-test.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/test-test.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/test-test.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/translating-text/TranslatingText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/translating-text/translating-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/translating-text/translating-text.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/text/translating-text/translating-text.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/theme/styles/.sass-cache/6b0a3e4a41894770ac0afbd4b3b12b8ab5a21c71/shapes.scssc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/theme/styles/.sass-cache/6b0a3e4a41894770ac0afbd4b3b12b8ab5a21c71/theme-toggle.scssc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/theme/styles/shapes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/styles/shapes.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/styles/theme-toggle.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
@@ -83,8 +96,8 @@
       <change beforePath="$PROJECT_DIR$/src/component/navBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navBar/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/Profile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/styles/profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/profile/styles/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/styles/shapes.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/profile/styles/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/styles/profile.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/styles/profile.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/NotFoundScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/not-found/NotFoundScreen.tsx" afterDir="false" />
@@ -110,12 +123,12 @@
       <change beforePath="$PROJECT_DIR$/src/component/text/styles/rolling-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/text/styles/rolling-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/text/styles/spin-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/styles/spin-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/styles/spin-text.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/text/styles/spin-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/theme/ThemeToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/ThemeToggle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/theme/theme-toggle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/styles/theme-toggle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/theme/theme-toggle.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/styles/theme-toggle.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/theme/theme-toggle.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/theme/theme-toggle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/styles/theme-toggle.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,7 +286,7 @@
       <workItem from="1610841897546" duration="1232000" />
       <workItem from="1610845553117" duration="4920000" />
       <workItem from="1610850500389" duration="5208000" />
-      <workItem from="1610891062658" duration="13109000" />
+      <workItem from="1610891062658" duration="13712000" />
     </task>
     <task id="LOCAL-00001" summary=":star2: update portfolio backbone">
       <created>1610475710443</created>
@@ -393,10 +406,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="252" width="672" height="677" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610734377627" />
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610906678927">
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610906986933">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610906678927" />
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610906986933" />
     <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1610659354919">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
