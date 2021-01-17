@@ -3,15 +3,10 @@ import './component/_global-styles/app.scss'
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import {User_Profile_Data} from "./data";
 import {ThemeProvider} from "./component/theme/ThemeContext";
-import Test from "./component/Test";
 import {NotFoundScreen} from "./component/screen";
 import {Profile} from "./component/profile";
 
 function App() {
-
-    useEffect(() => {
-        document.title = User_Profile_Data.name
-    }, [])
 
     return (
         <ThemeProvider>

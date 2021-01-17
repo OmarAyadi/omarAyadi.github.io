@@ -24,7 +24,7 @@
     font-weight: 700;
     line-height: 1.6;
     text-align: center;
-    color: var(--theme-color); }
+    color: var(--theme-inverse-color); }
   .hover-button:hover .hover-button-circle {
     width: 100%; }
   .hover-button:hover .hover-button-text {

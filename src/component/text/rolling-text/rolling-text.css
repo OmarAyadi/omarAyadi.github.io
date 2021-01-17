@@ -1,7 +1,7 @@
 .rolling-text {
   display: flex;
   flex-direction: column;
-  color: var(--theme-color);
+  color: var(--theme-inverse-color);
   justify-content: flex-start;
   overflow: hidden;
   text-decoration: none;

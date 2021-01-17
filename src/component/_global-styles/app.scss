@@ -3,9 +3,8 @@
 
 :root {
   // Values will be updated by Theme
-  --theme-background-color: #000;
-  --theme-color: #000;
-  --theme-inverse-color: #000;
+  --theme-background-color: whitesmoke;
+  --theme-inverse-color: #2a2a2a;
   --font-family: 'Terminal Dosis', serif;
   --boat-sea-color: "#2BE3FA";
   --boat-wave-color: "#fff";
@@ -19,7 +18,7 @@
 
 body {
   background-color: var(--theme-background-color);
-  color: var(--theme-color);
+  color: var(--theme-inverse-color);
   font-family: 'Terminal Dosis', serif;
   transition: background-color 0.5s linear, color 0.5s linear;
   height: 100vh;

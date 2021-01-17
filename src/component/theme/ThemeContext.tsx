@@ -2,7 +2,6 @@ import React from "react";
 
 export const themeColours = {
     light: {
-        color: "#343434",
         backgroundColor: "whitesmoke",
         inverseColor: "#2a2a2a",
         boat : {
@@ -11,7 +10,6 @@ export const themeColours = {
         }
     },
     dark: {
-        color: "#fff",
         backgroundColor: "#2a2a2a",
         inverseColor: "whitesmoke",
         boat : {
@@ -50,7 +48,6 @@ export const ThemeProvider = ({children}: Props) => {
     );
 
     const setTheme = (name: ThemeName) => {
-        document.body.style.setProperty("--theme-color", themeColours[name].color);
         document.body.style.setProperty(
             "--theme-background-color",
             themeColours[name].backgroundColor

@@ -2,7 +2,7 @@
 
 .rolling-text {
   @include flex(column);
-  color: var(--theme-color);
+  color: var(--theme-inverse-color);
   justify-content: flex-start;
   overflow: hidden;
   text-decoration: none;
