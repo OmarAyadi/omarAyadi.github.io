@@ -1,0 +1,34 @@
+@import "../../_global-styles/functions";
+
+.rolling-text {
+  @include flex(column);
+  color: var(--theme-color);
+  justify-content: flex-start;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: pre-wrap;
+  width: 100%;
+
+  .rolling-text-block {
+    flex: 1;
+    margin-bottom: -3px;
+
+    &:last-child {
+      color: #ffb510;
+    }
+  }
+
+  &:hover .rolling-text-letter {
+    transform: translateY(-100%);
+  }
+
+  .rolling-text-letter {
+    display: inline-block;
+    font-weight: 800;
+    transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  &:after{
+    content: "";
+  }
+}

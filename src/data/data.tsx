@@ -1,16 +1,23 @@
 import React from "react";
 
-import {
-    Hero,
-    Profile_Logo,
-} from '../static';
+import {Hero, Profile_Logo,} from '../static';
 
-import {FaLinkedinIn, FaFacebookF, FaInstagram, FaMediumM, FaCameraRetro, FaBasketballBall} from 'react-icons/fa'
-import {AiFillGithub, AiFillGitlab} from 'react-icons/ai'
-import {IoIosCodeWorking, IoIosAirplane} from 'react-icons/io'
-import {BsMusicNoteList} from 'react-icons/bs'
-import {CgGames, CgDesignmodo} from 'react-icons/cg'
-import {SiAboutDotMe} from 'react-icons/si'
+import {
+    AiFillGithub,
+    AiFillGitlab,
+    BsMusicNoteList,
+    CgDesignmodo,
+    CgGames,
+    FaBasketballBall,
+    FaCameraRetro,
+    FaFacebookF,
+    FaInstagram,
+    FaLinkedinIn,
+    FaMediumM,
+    IoIosAirplane,
+    IoIosCodeWorking,
+    SiAboutDotMe
+} from 'react-icons/all'
 
 
 export const Side_Bar_Data = [
@@ -33,43 +40,43 @@ export const Social_Media_Info = [
         title: "Github",
         path: "https://github.com/omarAyadi",
         icon: <AiFillGithub/>,
-        cName: 'nav-media-icon'
+        cName: 'github'
     },
     {
         title: "Gitlab",
         path: "https://gitlab.com/omarAyadi",
         icon: <AiFillGitlab/>,
-        cName: 'nav-media-icon'
+        cName: 'gitlab'
     },
     {
         title: "LinkedIn",
         path: "https://www.linkedin.com/in/mohamedomarayadi",
         icon: <FaLinkedinIn/>,
-        cName: 'nav-media-icon'
+        cName: 'linked-in'
     },
     {
         title: "Facebook",
         path: "https://www.facebook.com/miroutch",
         icon: <FaFacebookF/>,
-        cName: 'nav-media-icon'
+        cName: 'facebook'
     },
     {
         title: "Instagram",
         path: "https://www.instagram.com/ayadiomar93",
         icon: <FaInstagram/>,
-        cName: 'nav-media-icon'
+        cName: 'instagram'
     },
     {
         title: "Medium",
         path: "https://omarayadi.medium.com/",
         icon: <FaMediumM/>,
-        cName: 'nav-media-icon'
+        cName: 'medium'
     },
 ]
 
 export const User_Profile_Data = {
     name: "Mohamed Omar Ayadi",
-    work: "Software Engineer",
+    job: "Software Engineer",
     email: "m.omar.ayadi@gmail.com",
     profileLogo: Profile_Logo,
     additionalPicture: Hero,

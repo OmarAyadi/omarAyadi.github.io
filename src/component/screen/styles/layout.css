@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+  .layout .layout-top {
+    flex: .1; }
+  .layout .layout-body {
+    flex: .89; }
+  .layout .layout-end {
+    flex: .01; }
+
+/*# sourceMappingURL=layout.css.map */

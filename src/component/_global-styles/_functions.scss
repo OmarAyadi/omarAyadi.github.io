@@ -1,0 +1,18 @@
+@mixin flex-center($direction){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex($direction){
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin animate($animation, $delay){
+  -webkit-animation: $animation;
+  -o-animation: $animation;
+  animation: $animation;
+  animation-delay: $delay;
+}

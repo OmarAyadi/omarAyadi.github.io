@@ -11,11 +11,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment=":star2: update portfolio backbone">
+      <change afterPath="$PROJECT_DIR$/src/component/Test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/app.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/.sass-cache/6f938dd5205a022d061c43021408656a32102f1b/app.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/app.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/_global-styles/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/HoverButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/MediaButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/.sass-cache/f35c77ee4c1b87a8ecff35a7fe16bd5deecfc85e/media-button.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/hover-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/hover-button.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/hover-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/media-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/media-button.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/button/styles/media-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/.sass-cache/00ea9adceccc5d0018854420c9fb15cb63376bd1/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/.sass-cache/6f938dd5205a022d061c43021408656a32102f1b/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/.sass-cache/722efdf41146bd524a893e02c23305613608b3b1/navbar.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/navbar.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/navBar/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/profile/styles/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/profile/styles/profile.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/NotFoundScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/Spinner.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/SplashScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/00ea9adceccc5d0018854420c9fb15cb63376bd1/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/6f938dd5205a022d061c43021408656a32102f1b/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/footer.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/layout.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/not-found-screen.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/spinner.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/splash_screen.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/footer.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/layout.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/not-found-screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/not-found-screen.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/not-found-screen.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/spinner.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/spinner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/splash_screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/splash_screen.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/screen/styles/splash_screen.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/RollingText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/SpinText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/.sass-cache/5c0a0151f53ebe35f365252b272408562e53886c/rolling-text.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/.sass-cache/5c0a0151f53ebe35f365252b272408562e53886c/spin-text.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/rolling-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/rolling-text.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/rolling-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/spin-text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/spin-text.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/text/styles/spin-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/.sass-cache/de9666c207692320c447d84b5ff5843642654ac0/theme-toggle.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/ThemeToggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/theme-toggle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/theme-toggle.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/theme/theme-toggle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/404.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/AboutMe.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/about-me.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/styles/profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/loading/.sass-cache/0b63a7799d4af4217b4ea835430d0643564f1c4a/loading.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/loading/Loading.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/loading/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/loading/loading.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/loading/loading.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/nav/NavBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/nav/nav-bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/Work.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/hero.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/hero.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +152,12 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1mbJHsorVLSAidYXx5MCeuHslfr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -72,7 +172,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/work" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/static/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,24 +180,31 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/static/images/logo" />
-      <recent name="$PROJECT_DIR$/src/static" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/component/data" />
-      <recent name="$PROJECT_DIR$/src/component/profile" />
+      <recent name="$PROJECT_DIR$/src/component/text/styles" />
+      <recent name="$PROJECT_DIR$/src/component/profile/styles" />
+      <recent name="$PROJECT_DIR$/src/component/button/styles" />
+      <recent name="$PROJECT_DIR$/src/component" />
+      <recent name="$PROJECT_DIR$/src/component/screen/styles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/component/work" />
       <recent name="$PROJECT_DIR$/src/static/images" />
+      <recent name="$PROJECT_DIR$/src/component/work" />
       <recent name="$PROJECT_DIR$/src/component/nav" />
       <recent name="$PROJECT_DIR$/src/component/pages" />
       <recent name="$PROJECT_DIR$/src/static/images/logo" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gem install scss_lint" />
+      <command value="sudo gem install scss_lint" />
+      <command value="ls" />
+    </option>
   </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -141,7 +248,21 @@
       <workItem from="1610302875531" duration="1506000" />
       <workItem from="1610307196470" duration="91000" />
       <workItem from="1610472078092" duration="2936000" />
-      <workItem from="1610475032540" duration="1664000" />
+      <workItem from="1610475032540" duration="2258000" />
+      <workItem from="1610525752349" duration="6000" />
+      <workItem from="1610547352123" duration="14000" />
+      <workItem from="1610572811367" duration="8075000" />
+      <workItem from="1610628603739" duration="940000" />
+      <workItem from="1610629662013" duration="4781000" />
+      <workItem from="1610649228609" duration="3159000" />
+      <workItem from="1610655194326" duration="1870000" />
+      <workItem from="1610657811008" duration="3229000" />
+      <workItem from="1610690279495" duration="4000000" />
+      <workItem from="1610726010671" duration="15930000" />
+      <workItem from="1610754262958" duration="3481000" />
+      <workItem from="1610806860586" duration="30730000" />
+      <workItem from="1610839773766" duration="186000" />
+      <workItem from="1610841897546" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary=":star2: update portfolio backbone">
       <created>1610475710443</created>
@@ -174,19 +295,23 @@
     <option name="LAST_COMMIT_MESSAGE" value=":star2: update portfolio backbone" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="202" y="404" width="664" height="305" key="#SCSS_Lint" timestamp="1610473107060">
+    <state x="202" y="404" width="664" height="305" key="#SCSS_Lint" timestamp="1610573210051">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="202" y="404" width="664" height="305" key="#SCSS_Lint/72.27.1848.1053@72.27.1848.1053" timestamp="1610473107060" />
+    <state x="202" y="404" width="664" height="305" key="#SCSS_Lint/72.27.1848.1053@72.27.1848.1053" timestamp="1610573210051" />
     <state x="454" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609756371364">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="454" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1609756371364" />
-    <state x="670" y="342" width="641" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610204468767">
+    <state x="670" y="342" width="651" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610831517975">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="670" y="342" width="641" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1609926219360" />
-    <state x="670" y="342" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1610204468767" />
+    <state x="670" y="342" width="651" height="410" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1610831517975" />
+    <state x="706" y="27" width="905" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610573447093">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="706" y="27" width="905" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610573447093" />
     <state x="729" y="289" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610227542734">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -196,57 +321,70 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="169" y="331" width="719" height="452" key="EditFileWatcherDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610475625254" />
-    <state width="1802" height="334" key="GridCell.Tab.0.bottom" timestamp="1610475525441">
+    <state x="317" y="315" width="424" height="491" key="FileChooserDialogImpl" timestamp="1610661295465">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="317" y="315" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1610661295465" />
+    <state width="878" height="213" key="GridCell.Tab.0.bottom" timestamp="1610809373461">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.bottom/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525441" />
-    <state width="1802" height="334" key="GridCell.Tab.0.center" timestamp="1610475525440">
+    <state width="878" height="213" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1610809373461" />
+    <state width="878" height="213" key="GridCell.Tab.0.center" timestamp="1610809373461">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.center/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525440" />
-    <state width="1802" height="334" key="GridCell.Tab.0.left" timestamp="1610475525439">
+    <state width="878" height="213" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1610809373461" />
+    <state width="878" height="213" key="GridCell.Tab.0.left" timestamp="1610809373460">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.left/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525439" />
-    <state width="1802" height="334" key="GridCell.Tab.0.right" timestamp="1610475525440">
+    <state width="878" height="213" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1610809373460" />
+    <state width="878" height="213" key="GridCell.Tab.0.right" timestamp="1610809373461">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.right/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="334" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1610475525440" />
+    <state width="878" height="213" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1610809373461" />
     <state x="675" y="237" width="632" height="640" key="RollbackChangesDialog" timestamp="1610475681264">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="675" y="237" width="632" height="640" key="RollbackChangesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610475681264" />
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1610306404915">
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1610741178141">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1610306404915" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1610741178141" />
     <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2" timestamp="1610475712648">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="275" width="800" height="563" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1610475712648" />
-    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610475016037">
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610839857072">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610475016037" />
-    <state x="724" y="140" width="534" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609852974901">
+    <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610839857072" />
+    <state x="724" y="140" width="534" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610826298582">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="724" y="140" width="534" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1609852974901" />
-    <state x="225" y="292" width="618" height="522" key="find.popup" timestamp="1610226346039">
+    <state x="724" y="140" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1610826298582" />
+    <state x="225" y="292" width="618" height="522" key="find.popup" timestamp="1610832958645">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="225" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610226346039" />
-    <state x="660" y="252" key="run.anything.popup" timestamp="1610476533813">
+    <state x="225" y="292" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610832958645" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1610736641579">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610476533813" />
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610472554189">
+    <state width="600" height="428" key="javadoc.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610736641579" />
+    <state x="660" y="252" width="672" height="677" key="run.anything.popup" timestamp="1610734377627">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610472554189" />
+    <state x="660" y="252" width="672" height="677" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610734377627" />
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610842122176">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610842122176" />
+    <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1610659354919">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1610659354919" />
   </component>
 </project>

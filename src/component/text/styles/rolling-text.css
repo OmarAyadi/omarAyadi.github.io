@@ -1,0 +1,24 @@
+.rolling-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--theme-color);
+  justify-content: flex-start;
+  overflow: hidden;
+  text-decoration: none;
+  white-space: pre-wrap;
+  width: 100%; }
+  .rolling-text .rolling-text-block {
+    flex: 1;
+    margin-bottom: -3px; }
+    .rolling-text .rolling-text-block:last-child {
+      color: #ffb510; }
+  .rolling-text:hover .rolling-text-letter {
+    transform: translateY(-100%); }
+  .rolling-text .rolling-text-letter {
+    display: inline-block;
+    font-weight: 800;
+    transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1); }
+  .rolling-text:after {
+    content: ""; }
+
+/*# sourceMappingURL=rolling-text.css.map */

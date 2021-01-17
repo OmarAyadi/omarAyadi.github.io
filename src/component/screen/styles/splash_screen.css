@@ -1,0 +1,100 @@
+.splash-screen-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; }
+
+.splash-screen-box {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  width: 300px; }
+
+.splash-screen-box-title {
+  height: 50px;
+  position: relative;
+  width: 100%; }
+  .splash-screen-box-title .splash-screen-box-block {
+    -webkit-animation: mainBlock 2s cubic-bezier(0.74, 0.86, 0.4, 0.92) forwards;
+    -o-animation: mainBlock 2s cubic-bezier(0.74, 0.86, 0.4, 0.92) forwards;
+    animation: mainBlock 2s cubic-bezier(0.74, 0.86, 0.4, 0.92) forwards;
+    animation-delay: 0s;
+    background: #ffb510;
+    border-radius: 7px;
+    height: inherit;
+    position: absolute;
+    width: 0; }
+  .splash-screen-box-title .splash-screen-box-block-name {
+    -webkit-animation: mainFadeIn 2s forwards;
+    -o-animation: mainFadeIn 2s forwards;
+    animation: mainFadeIn 2s forwards;
+    animation-delay: 1.6s;
+    font-size: 32px;
+    opacity: 0; }
+    .splash-screen-box-title .splash-screen-box-block-name span {
+      color: #ffb510;
+      padding-left: 3px; }
+
+.splash-screen-box-role {
+  width: 100%;
+  position: relative;
+  height: 30px;
+  margin-top: -10px;
+  display: flex;
+  align-items: center; }
+  .splash-screen-box-role .splash-screen-box-block {
+    -webkit-animation: secBlock 2s cubic-bezier(0.74, 0.86, 0.4, 0.92) forwards;
+    -o-animation: secBlock 2s cubic-bezier(0.74, 0.86, 0.4, 0.92) forwards;
+    animation: secBlock 2s cubic-bezier(0.74, 0.86, 0.4, 0.92) forwards;
+    animation-delay: 2s;
+    background: #e91e63;
+    border-radius: 7px;
+    height: inherit;
+    position: absolute;
+    width: 0; }
+  .splash-screen-box-role .splash-screen-box-block-job {
+    -webkit-animation: secFadeIn 2s forwards;
+    -o-animation: secFadeIn 2s forwards;
+    animation: secFadeIn 2s forwards;
+    animation-delay: 3.2s;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0; }
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0px; }
+  50% {
+    width: 100%;
+    left: 0px; }
+  100% {
+    width: 0;
+    left: 100%; } }
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0px; }
+  50% {
+    width: 100%;
+    left: 0px; }
+  100% {
+    width: 0;
+    left: 100%; } }
+@keyframes secFadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=splash_screen.css.map */

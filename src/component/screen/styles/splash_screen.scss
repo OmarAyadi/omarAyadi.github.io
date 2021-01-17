@@ -1,0 +1,130 @@
+@import "../../_global-styles/functions";
+
+$box-size: 300px;
+$box-radius: 7px;
+
+.splash-screen-wrapper {
+  @include flex-center(row);
+  height: 100vh;
+  width: 100%;
+}
+
+.splash-screen-box {
+  display: flex;
+  flex-direction: column;
+  height: $box-size;
+  justify-content: center;
+  width: $box-size;
+}
+
+.splash-screen-box-title {
+  height: 50px;
+  position: relative;
+  width: 100%;
+
+  $ss-box-color: #ffb510;
+
+  .splash-screen-box-block {
+
+    @include animate(mainBlock 2s cubic-bezier(.74, .86, .4, .92) forwards, 0s);
+    background: $ss-box-color;
+    border-radius: $box-radius;
+    height: inherit;
+    position: absolute;
+    width: 0;
+  }
+
+  .splash-screen-box-block-name {
+    @include animate(mainFadeIn 2s forwards, 1.6s);
+    font-size: 32px;
+    opacity: 0;
+
+    span {
+      color: $ss-box-color;
+      padding-left: 3px;
+    }
+  }
+}
+
+.splash-screen-box-role {
+  width: 100%;
+  position: relative;
+  height: 30px;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+
+  .splash-screen-box-block {
+    @include animate(secBlock 2s cubic-bezier(.74, .86, .4, .92) forwards, 2s);
+    background: #e91e63;
+    border-radius: $box-radius;
+    height: inherit;
+    position: absolute;
+    width: 0;
+
+  }
+
+  .splash-screen-box-block-job {
+    @include animate(secFadeIn 2s forwards, 3.2s);
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    opacity: 0;
+  }
+}
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0px;
+  }
+
+  50% {
+    width: 100%;
+    left: 0px;
+  }
+
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    left: 0px;
+  }
+
+  50% {
+    width: 100%;
+    left: 0px;
+  }
+
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

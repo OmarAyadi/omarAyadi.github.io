@@ -1,0 +1,174 @@
+/*======================
+    404 page styling
+=======================*/
+@import "../../_global-styles/functions";
+
+$border: #293b49;
+
+.nfs-wrapper {
+  @include flex-center(column);
+  height: 100vh;
+  margin-top: -50px;
+}
+
+.nfs-error {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .nfs-error-number {
+    font-size: 15rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+}
+
+.nfs-error-illustration {
+  margin: 0 2.1rem;
+  position: relative;
+  width: 12.2rem;
+
+  .nfs-error-illustration-circle {
+    background-color: var(--theme-inverse-color);
+    border-radius: 50%;
+    bottom: 0;
+    height: 11.4rem;
+    left: 0;
+    position: absolute;
+    width: 12.2rem;
+  }
+
+  .nfs-error-illustration-clip {
+    border-radius: 0 0 50% 50%;
+    bottom: 0.3rem;
+    height: 13rem;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 12.5rem;
+  }
+
+}
+
+.nfs-error-illustration-paper {
+  position: absolute;
+  bottom: -0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 9.2rem;
+  height: 12.4rem;
+  border: 0.3rem solid $border;
+  background-color: white;
+  border-radius: 0.8rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -0.7rem;
+    right: -0.7rem;
+    width: 1.4rem;
+    height: 1rem;
+    background-color: var(--theme-background-color);
+    border-bottom: 0.3rem solid $border;
+    transform: rotate(45deg);
+  }
+}
+
+.nfs-error-illustration-face {
+  position: relative;
+  margin-top: 2.3rem;
+
+  .nfs-error-illustration-eyes {
+    position: absolute;
+    top: 0;
+    left: 2.4rem;
+    width: 4.6rem;
+    height: 0.8rem;
+
+    .nfs-error-illustration-eye {
+      position: absolute;
+      bottom: 0;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 50%;
+      background-color: $border;
+      animation-name: eye;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+
+    .nfs-error-illustration-eye-left {
+      left: 0;
+    }
+
+    .nfs-error-illustration-eye-right {
+      right: 0;
+    }
+
+  }
+
+
+  .nfs-error-illustration-rosyCheeks {
+    position: absolute;
+    top: 1.6rem;
+    width: 1rem;
+    height: 0.2rem;
+    border-radius: 50%;
+    background-color: #fdabaf;
+  }
+
+  .nfs-error-illustration-rosyCheeks-left {
+    left: 1.4rem;
+  }
+
+  .nfs-error-illustration-rosyCheeks-right {
+    right: 1.4rem;
+  }
+
+  .nfs-error-illustration-mouth {
+    position: absolute;
+    top: 3.1rem;
+    left: 50%;
+    width: 1.6rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+    transform: translateX(-50%);
+    background-color: $border;
+  }
+
+}
+
+@keyframes eye {
+  $height: 0.8rem;
+
+  0% {
+    height: $height;
+  }
+  50% {
+    height: $height;
+  }
+  52% {
+    height: 0.1rem;
+  }
+  54% {
+    height: $height;
+  }
+  100% {
+    height: $height;
+  }
+}
+
+.nfs-direction {
+  @include flex-center(column);
+
+  .nfs-direction-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10vh;
+    padding-bottom: 2vh;
+  }
+}
+

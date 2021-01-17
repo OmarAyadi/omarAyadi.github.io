@@ -1,31 +1,34 @@
 import React, {useEffect} from 'react';
-import "./app.css"
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import { Profile, AboutMe, Work, Loading} from './component'
+import './component/_global-styles/app.scss'
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
+import {User_Profile_Data} from "./data";
+import {NavBar, NotFoundScreen, Profile} from "./component";
+import {ThemeProvider} from "./component/theme/ThemeContext";
+import Test from "./component/Test";
 
 function App() {
 
     useEffect(() => {
-        document.title = "Mohamed Omar Ayadi"
+        document.title = User_Profile_Data.name
     }, [])
 
     return (
-        <>
-            <Router>
+        <ThemeProvider>
+            <Router basename="/">
                 {/*<NavBar/>*/}
                 <Switch>
-                    <Route path="/" exact component={Loading}/>
-                    <Route path="/profile" component={Profile}/>
-                    <Route path="/about" component={AboutMe}/>
-                    <Route path="/work" component={Work}/>
+                    <Route path="/" exact component={Profile}/>
+                    <Route path="/nav" exact component={NavBar}/>
+                    <Route path="/test" exact component={Test}/>
+                    <Route component={NotFoundScreen}></Route>
                 </Switch>
             </Router>
-        </>
+        </ThemeProvider>
     );
 }
 
 // todo
-// install messanger APP
-//    https://www.facebook.com/business/m/add-messenger-to-your-website
+// 1. install messanger APP https://www.facebook.com/business/m/add-messenger-to-your-website
+// 2. add 404 page
 
 export default App;

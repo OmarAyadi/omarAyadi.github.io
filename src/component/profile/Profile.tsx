@@ -1,26 +1,22 @@
 import React from 'react';
-import './profile.css'
+
+import './styles/profile.scss'
 import {User_Profile_Data} from "../../data";
 
+type ProfileProps = {}
 
-function Profile() {
-    const {
-        name,
-        work,
-        profileLogo,
-        additionalPicture,
-    } = User_Profile_Data
+function Profile(props: ProfileProps) {
 
+    const {name, job } = User_Profile_Data
     return (
-        <div className="profile">
-            <div className="profile-content">
-                Hi. I’m
-                <span className="profile-name"> {name}</span><br/>
-                <span className="profile-work">{work}</span><br/>
+        <>
+            <div className="profile">
+                <div className="profile__name">{name}</div>
+                <div className="profile__job">{job}</div>
+                <div className="profile__logo"></div>
             </div>
-            <img src={profileLogo} alt="profile" className="profile-logo"/>
-            <img src={additionalPicture} alt="additional" className="profile-add-picture"/>
-        </div>
+
+        </>
     );
 }
 

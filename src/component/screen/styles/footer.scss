@@ -1,0 +1,6 @@
+@import "../../_global-styles/functions";
+
+.footer{
+  @include flex-center(row);
+  flex: .2;
+}
