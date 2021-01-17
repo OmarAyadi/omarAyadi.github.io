@@ -20,8 +20,7 @@ $speed: 1;
     background: var(--boat-sea-color);
     overflow: hidden;
     animation:
-            surface 13000ms ease-in-out infinite alternate,
-            rotateZ 20000ms linear infinite;
+            surface 13000ms ease-in-out infinite alternate;
 
     .inner {
       width: 600px;

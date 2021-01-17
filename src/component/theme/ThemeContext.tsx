@@ -1,19 +1,22 @@
 import React from "react";
 
+const lightThemeColor = "whitesmoke"
+const darkThemeColor = "#323232"
+
 export const themeColours = {
     light: {
-        backgroundColor: "whitesmoke",
-        inverseColor: "#2a2a2a",
+        backgroundColor: lightThemeColor,
+        inverseColor: darkThemeColor,
         boat : {
             seaColor : "#2BE3FA",
-            waveColor : "whitesmoke"
+            waveColor : lightThemeColor
         }
     },
     dark: {
-        backgroundColor: "#2a2a2a",
-        inverseColor: "whitesmoke",
+        backgroundColor:darkThemeColor,
+        inverseColor: lightThemeColor,
         boat : {
-            seaColor : "whitesmoke",
+            seaColor : lightThemeColor,
             waveColor : "#749DD6"
         }
     }

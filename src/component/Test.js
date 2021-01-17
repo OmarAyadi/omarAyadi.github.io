@@ -1,15 +1,15 @@
 import React from 'react';
 
 import './test.css'
-import {Footer, Layout} from "./screen";
+import {MovingBoat} from "./animation";
 
 function Test() {
 
     // const {themeToggle} = useThemeToggle()
 
     return (
-        <div className="test">
-            <Footer/>
+        <div className="test2">
+            <MovingBoat/>
         </div>
     );
 }

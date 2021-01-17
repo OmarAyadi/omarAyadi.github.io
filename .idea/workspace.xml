@@ -11,9 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment=":star2: update portfolio backbone">
+      <change afterPath="$PROJECT_DIR$/src/component/animation/boat/.sass-cache/35b96bc7d0a4a1033bd41bd7cae401f7b7d42c56/moving-boat.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/.sass-cache/5ea6a42746eb98f3ef9aec4f3467bc2e5b00f612/profile.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/.sass-cache/5ea6a42746eb98f3ef9aec4f3467bc2e5b00f612/profile.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/profile.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/profile/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/console-text/.sass-cache/f8ac3be2a579d85e98ff0899f11bbe924857d1c3/console-text.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/console-text/.sass-cache/f8ac3be2a579d85e98ff0899f11bbe924857d1c3/console-text.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/console-text/console-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/console-text/console-text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/console-text/console-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/console-text/console-text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/console-text/console-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/console-text/console-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/.sass-cache/e65c093de39eef959662fc65b99b7ed2ad8e3ded/spin-text.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/.sass-cache/e65c093de39eef959662fc65b99b7ed2ad8e3ded/spin-text.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +190,7 @@
       <workItem from="1610845553117" duration="4920000" />
       <workItem from="1610850500389" duration="5208000" />
       <workItem from="1610891062658" duration="14661000" />
-      <workItem from="1610908399933" duration="7764000" />
+      <workItem from="1610908399933" duration="10500000" />
     </task>
     <task id="LOCAL-00001" summary=":star2: update portfolio backbone">
       <created>1610475710443</created>
@@ -238,26 +257,26 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="317" y="315" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1610846318548" />
-    <state width="1802" height="213" key="GridCell.Tab.0.bottom" timestamp="1610916007748">
+    <state width="1802" height="166" key="GridCell.Tab.0.bottom" timestamp="1610922375805">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.bottom/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="213" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1610916007748" />
-    <state width="1802" height="213" key="GridCell.Tab.0.center" timestamp="1610916007746">
+    <state width="1802" height="166" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1610922375805" />
+    <state width="1802" height="166" key="GridCell.Tab.0.center" timestamp="1610922375805">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.center/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="213" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1610916007746" />
-    <state width="1802" height="213" key="GridCell.Tab.0.left" timestamp="1610916007745">
+    <state width="1802" height="166" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1610922375805" />
+    <state width="1802" height="166" key="GridCell.Tab.0.left" timestamp="1610922375804">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.left/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="213" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1610916007745" />
-    <state width="1802" height="213" key="GridCell.Tab.0.right" timestamp="1610916007747">
+    <state width="1802" height="166" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1610922375804" />
+    <state width="1802" height="166" key="GridCell.Tab.0.right" timestamp="1610922375805">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="345" key="GridCell.Tab.0.right/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1610007412026" />
-    <state width="1802" height="213" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1610916007747" />
+    <state width="1802" height="166" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1610922375805" />
     <state x="675" y="237" width="632" height="640" key="RollbackChangesDialog" timestamp="1610475681264">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -279,22 +298,22 @@
     </state>
     <state x="724" y="140" width="534" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1609852974901" />
     <state x="724" y="140" width="944" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1610897491607" />
-    <state x="225" y="292" width="618" height="580" key="find.popup" timestamp="1610910926019">
+    <state x="225" y="292" width="618" height="580" key="find.popup" timestamp="1610922439023">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="225" y="292" width="618" height="580" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610910926019" />
+    <state x="225" y="292" width="618" height="580" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610922439023" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1610736641579">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="600" height="428" key="javadoc.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610736641579" />
-    <state x="660" y="252" width="672" height="677" key="run.anything.popup" timestamp="1610734377627">
+    <state x="660" y="252" width="672" height="677" key="run.anything.popup" timestamp="1610921819358">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="660" y="252" width="672" height="677" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610734377627" />
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610915994315">
+    <state x="660" y="252" width="672" height="677" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610921819358" />
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1610922461004">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610915994315" />
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1610922461004" />
     <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1610659354919">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

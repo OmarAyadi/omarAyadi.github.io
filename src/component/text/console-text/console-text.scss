@@ -5,6 +5,7 @@
 
 .console-container {
   font-size:5vw;
+  font-weight: 500;
   color: var(--theme-inverse-color);
   .console-underscore {
     color: var(--theme-inverse-color);
@@ -12,6 +13,13 @@
     position:relative;
     top:-0.14em;
     left:10px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+
+  .console-container {
+    font-size:50px;
   }
 }
 

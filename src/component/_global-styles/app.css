@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Terminal+Dosis&display=swap");
 :root {
   --theme-background-color: whitesmoke;
-  --theme-inverse-color: #2a2a2a;
+  --theme-inverse-color: #323232;
   --font-family: 'Terminal Dosis', serif;
   --boat-sea-color: "#2BE3FA";
   --boat-wave-color: "#fff"; }

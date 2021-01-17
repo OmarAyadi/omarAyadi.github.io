@@ -27,7 +27,7 @@
 
     &:after, &:before {
       @include animate(opacity 2s infinite, 2s);
-      color: #FC766AFF;
+      color: var(--theme-inverse-color);
       font-size: 42px;
       line-height: 40px;
       position: absolute;
