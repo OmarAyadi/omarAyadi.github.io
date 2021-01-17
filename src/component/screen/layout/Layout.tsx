@@ -15,7 +15,7 @@ function Layout({children}: LayoutProps) {
 
     return (
         <>
-            {/*{loading ? SplashScreen :*/}
+            {loading ? SplashScreen :
                 <div className="layout">
                     <div className="layout-top">
                         <NavBar/>
@@ -27,7 +27,7 @@ function Layout({children}: LayoutProps) {
                         <Footer/>
                     </div>
                 </div>
-            {/*}*/}
+            }
         </>
     );
 }
