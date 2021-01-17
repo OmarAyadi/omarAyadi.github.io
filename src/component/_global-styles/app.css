@@ -3,7 +3,9 @@
   --theme-background-color: #000;
   --theme-color: #000;
   --theme-inverse-color: #000;
-  --font-family: 'Terminal Dosis', serif; }
+  --font-family: 'Terminal Dosis', serif;
+  --boat-sea-color: "#2BE3FA";
+  --boat-wave-color: "#fff"; }
 
 * {
   box-sizing: border-box;

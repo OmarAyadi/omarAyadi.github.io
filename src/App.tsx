@@ -2,9 +2,9 @@ import React, {useEffect} from 'react';
 import './component/_global-styles/app.scss'
 import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import {User_Profile_Data} from "./data";
-import {NavBar, NotFoundScreen, Profile} from "./component";
 import {ThemeProvider} from "./component/theme/ThemeContext";
 import Test from "./component/Test";
+import {Layout, NotFoundScreen} from "./component/screen";
 
 function App() {
 
@@ -15,10 +15,8 @@ function App() {
     return (
         <ThemeProvider>
             <Router basename="/">
-                {/*<NavBar/>*/}
                 <Switch>
-                    <Route path="/" exact component={Profile}/>
-                    <Route path="/nav" exact component={NavBar}/>
+                    <Route path="/" exact component={Layout}/>
                     <Route path="/test" exact component={Test}/>
                     <Route component={NotFoundScreen}></Route>
                 </Switch>

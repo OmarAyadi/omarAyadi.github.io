@@ -1,15 +1,23 @@
 import React from "react";
 
-const themeColours = {
+export const themeColours = {
     light: {
         color: "#343434",
         backgroundColor: "whitesmoke",
-        inverseColor: "#2f2f2f"
+        inverseColor: "#2a2a2a",
+        boat : {
+            seaColor : "#2BE3FA",
+            waveColor : "whitesmoke"
+        }
     },
     dark: {
         color: "#fff",
-        backgroundColor: "#2f2f2f",
-        inverseColor: "whitesmoke"
+        backgroundColor: "#2a2a2a",
+        inverseColor: "whitesmoke",
+        boat : {
+            seaColor : "whitesmoke",
+            waveColor : "#749DD6"
+        }
     }
 };
 
@@ -51,6 +59,18 @@ export const ThemeProvider = ({children}: Props) => {
             "--theme-inverse-color",
             themeColours[name].inverseColor
         );
+
+
+        document.body.style.setProperty(
+            "--boat-sea-color",
+            themeColours[name].boat.seaColor
+        );
+
+        document.body.style.setProperty(
+            "--boat-wave-color",
+            themeColours[name].boat.waveColor
+        );
+
         setThemeName(name);
     };
 

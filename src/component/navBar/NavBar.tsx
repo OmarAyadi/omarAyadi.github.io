@@ -1,7 +1,7 @@
 import React from 'react';
 import "./navbar.scss"
 import useThemeToggle from "../theme/ThemeToggle";
-import {RollingText, SpinText} from "../index";
+import {RollingText, SpinText} from "../text";
 
 function NavBar() {
     const {themeToggle} = useThemeToggle();

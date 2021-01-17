@@ -1,13 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import './theme-toggle.scss'
+import './styles/theme-toggle.scss'
 import {useTheme} from "./ThemeContext";
 
 
 function useThemeToggle() {
     const {theme, setTheme} = useTheme()
     const [checked, setChecked] = useState(theme === "dark")
-
-
 
     useEffect(
         () => {
@@ -26,11 +24,6 @@ function useThemeToggle() {
                            const newTheme = theme === "dark" ? "light" : "dark"
                            // update user' theme
                            setTheme(newTheme)
-                           // // update theme cookie
-                           // cookie.set("theme",newTheme)
-                           //
-                           // console.log("theme updated : ",newTheme)
-                           // console.log("theme fetched : ",cookie.get("theme"))
                        }}
                        id="dn"/>
                 <label htmlFor="dn" className="theme-toggle">

@@ -1,0 +1,62 @@
+#movingPlanet {
+  height: 400px;
+  width: 400px; }
+  #movingPlanet .orbit {
+    border: solid;
+    border-color: var(--theme-inverse-color) transparent transparent transparent;
+    border-radius: 50%;
+    border-width: 1px 1px 0 0;
+    box-sizing: border-box;
+    position: absolute;
+    transform: rotate(0deg);
+    transform-origin: center; }
+    #movingPlanet .orbit#earth-orbit {
+      -webkit-animation: orbit 36.5s linear infinite;
+      animation: orbit 36.5s linear infinite;
+      height: 300px;
+      left: 50px;
+      top: 50px;
+      width: 300px; }
+    #movingPlanet .orbit#moon-orbit {
+      -webkit-animation: orbit 2.7s linear infinite;
+      animation: orbit 2.7s linear infinite;
+      height: 80px;
+      left: -25px;
+      top: -25px;
+      width: 80px; }
+    #movingPlanet .orbit .globe {
+      border-radius: 50%;
+      position: absolute; }
+      #movingPlanet .orbit .globe#earth {
+        background: aqua;
+        box-shadow: 0 0 5px var(--theme-inverse-color);
+        height: 30px;
+        right: 28px;
+        top: 28px;
+        width: 30px; }
+      #movingPlanet .orbit .globe#moon {
+        background: var(--theme-inverse-color);
+        box-shadow: 0 0 2px var(--theme-inverse-color);
+        height: 12px;
+        right: 2px;
+        top: 8px;
+        width: 12px; }
+
+#movingPlanet__sun {
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--theme-inverse-color);
+  height: 100px;
+  left: 150px;
+  position: absolute;
+  top: 150px;
+  width: 100px; }
+
+@-webkit-keyframes orbit {
+  to {
+    transform: rotate(360deg); } }
+@keyframes orbit {
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=moving-planet.css.map */

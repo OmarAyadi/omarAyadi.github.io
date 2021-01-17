@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+  .layout .layout-top {
+    flex: .1; }
+  .layout .layout-body {
+    flex: .89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .layout .layout-end {
+    flex: .01; }
+
+/*# sourceMappingURL=layout.css.map */
