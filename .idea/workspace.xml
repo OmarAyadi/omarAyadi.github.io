@@ -11,25 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment=":star2: update portfolio backbone">
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/app.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/app.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/button/hover/hover-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/hover/hover-button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/button/hover/hover-button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/hover/hover-button.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/button/hover/hover-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/hover/hover-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +171,7 @@
       <workItem from="1610845553117" duration="4920000" />
       <workItem from="1610850500389" duration="5208000" />
       <workItem from="1610891062658" duration="14661000" />
-      <workItem from="1610908399933" duration="422000" />
+      <workItem from="1610908399933" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary=":star2: update portfolio backbone">
       <created>1610475710443</created>

@@ -39,7 +39,7 @@ export const ThemeProvider = ({children}: Props) => {
         const themeFromCookie = document.cookie
 
         // fetch the theme from the cookie
-        return themeFromCookie.indexOf("light") !== -1 ? "light" : "dark"
+        return themeFromCookie.indexOf("dark") !== -1 ? "dark" : "light"
     }
 
     // use dark mode by default
