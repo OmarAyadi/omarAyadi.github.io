@@ -11,7 +11,7 @@ function Footer() {
             {
                 Social_Media_Info.map(
                     ({title, path, icon, cName}, index) => (
-                        <div key={index} onClick={() => window.open(path)}>
+                        <div key={index} onClick={() => window.open(path)} className="footer-media-button">
                             <MediaButton
                                 Icon={icon}
                                 text={title}

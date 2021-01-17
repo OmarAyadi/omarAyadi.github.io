@@ -11,14 +11,13 @@
   justify-content: center;
   align-items: center; }
   .media-button-wrapper .media-button-tooltip {
-    width: 90px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
     border-radius: 70px;
     position: absolute;
     font-size: 30px;
     background: var(--theme-inverse-color);
     z-index: 2;
-    padding: 0 15px;
     box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
     opacity: 0;
     top: 0;
@@ -37,17 +36,17 @@
       margin-left: -10px;
       bottom: -8px;
       transform: rotate(45deg);
-      z-index: 0; }
+      z-index: -9; }
   .media-button-wrapper .media-button-icon {
     cursor: pointer;
-    font-size: 24px;
+    font-size: 40px;
     position: absolute;
     z-index: 4; }
     .media-button-wrapper .media-button-icon:hover ~ .media-button-tooltip {
-      width: 190px;
+      width: 160px;
       height: 70px;
       animation: stretch-animation 1s ease-out forwards .15s;
-      top: -90px;
+      top: -80px;
       opacity: 1; }
   .media-button-wrapper .media-button-tooltip-text {
     color: var(--theme-background-color); }
@@ -70,38 +69,6 @@
 .medium:hover {
   color: #66cdaa; }
 
-@keyframes pang-animation {
-  0% {
-    transform: scale(0);
-    opacity: 0; }
-  40% {
-    transform: scale(1);
-    opacity: 1; }
-  100% {
-    transform: scale(1.1);
-    opacity: 0; } }
-@keyframes plus-animation {
-  0% {
-    transform: rotate(0) scale(1); }
-  20% {
-    transform: rotate(60deg) scale(0.93); }
-  55% {
-    transform: rotate(35deg) scale(0.97); }
-  80% {
-    transform: rotate(48deg) scale(0.94); }
-  100% {
-    transform: rotate(45deg) scale(0.95); } }
-@keyframes plus-animation-reverse {
-  0% {
-    transform: rotate(45deg) scale(0.95); }
-  20% {
-    transform: rotate(-15deg); }
-  55% {
-    transform: rotate(10deg); }
-  80% {
-    transform: rotate(-3deg); }
-  100% {
-    transform: rotate(0) scale(1); } }
 @keyframes stretch-animation {
   0% {
     transform: scale(1, 1); }
@@ -113,5 +80,8 @@
     transform: scale(1.05, 0.95); }
   100% {
     transform: scale(1, 1); } }
+@media only screen and (max-width: 920px) {
+  .media-button-icon {
+    font-size: 40px; } }
 
 /*# sourceMappingURL=media-button.css.map */

@@ -3,4 +3,9 @@
 .footer{
   @include flex-center(row);
   flex: .2;
+  padding-bottom: 30px;
+
+  .footer-media-button{
+    padding-right: 20px;
+  }
 }

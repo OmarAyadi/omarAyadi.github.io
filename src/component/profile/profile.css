@@ -21,7 +21,8 @@
     padding-left: 1vw; }
   .profile .profile_animation {
     height: 500px;
-    width: 400px; }
+    width: 400px;
+    padding-top: 50px; }
 
 @media only screen and (max-width: 920px) {
   .profile_content {

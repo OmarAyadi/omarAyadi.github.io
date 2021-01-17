@@ -1,19 +1,15 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 
 import './test.css'
-import useThemeToggle from "./theme/ThemeToggle";
-import {ConsoleText} from "./text";
-import {User_Profile_Data} from "../data";
-import {Layout} from "./screen";
-import {Profile} from "./profile";
+import {Footer, Layout} from "./screen";
 
 function Test() {
 
-    const {themeToggle} = useThemeToggle()
+    // const {themeToggle} = useThemeToggle()
 
     return (
-        <div className="test2">
-
+        <div className="test">
+            <Footer/>
         </div>
     );
 }
