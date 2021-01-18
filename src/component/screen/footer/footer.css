@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-items: flex-end;
   flex: .2;
   padding-bottom: 30px; }
   .footer .footer-media-button {

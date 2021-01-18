@@ -10,10 +10,10 @@ function App() {
 
     return (
         <ThemeProvider>
-            <Router basename="/">
+            <Router basename={"/"}>
                 <Switch>
                     <Route path="/" exact component={Profile}/>
-                    {/*<Route path="/test" exact component={Test}/>*/}
+                    <Route path="/test" exact component={Test}/>
                     <Route component={NotFoundScreen}></Route>
                 </Switch>
             </Router>
@@ -23,6 +23,5 @@ function App() {
 
 // todo
 // 1. install messanger APP https://www.facebook.com/business/m/add-messenger-to-your-website
-// 2. add 404 page
 
 export default App;

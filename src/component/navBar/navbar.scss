@@ -18,9 +18,8 @@
 }
 
 .nav-bar-right {
-  align-items: baseline;
-
   display: flex;
+  align-items: flex-end;
 
   .nav-bar-items {
     border: 0;

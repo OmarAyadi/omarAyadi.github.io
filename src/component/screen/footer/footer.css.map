@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,OAAO;ECDL,OAAO,EAAE,IAAI;EACb,cAAc,EDCO,GAAG;ECAxB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EDAnB,IAAI,EAAE,EAAE;EACR,cAAc,EAAE,IAAI;EAEpB,4BAAoB;IAClB,aAAa,EAAE,IAAI",
+"mappings": "AAEA,OAAO;ECDL,OAAO,EAAE,IAAI;EACb,cAAc,EDCO,GAAG;ECAxB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EDAjB,WAAW,EAAE,QAAQ;EACvB,IAAI,EAAE,EAAE;EACR,cAAc,EAAE,IAAI;EAEpB,4BAAoB;IAClB,aAAa,EAAE,IAAI",
 "sources": ["footer.scss","../../_global-styles/_functions.scss"],
 "names": [],
 "file": "footer.css"

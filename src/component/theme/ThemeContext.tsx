@@ -17,7 +17,7 @@ export const themeColours = {
         inverseColor: lightThemeColor,
         boat : {
             seaColor : lightThemeColor,
-            waveColor : "#749DD6"
+            waveColor : "#2BE3FA"
         }
     }
 };
