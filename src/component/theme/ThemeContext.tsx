@@ -7,6 +7,9 @@ export const themeColours = {
     light: {
         backgroundColor: lightThemeColor,
         inverseColor: darkThemeColor,
+        toggle : {
+            sunColor : "#eec413" ,
+        },
         boat : {
             seaColor : "#2BE3FA",
             waveColor : lightThemeColor
@@ -15,6 +18,9 @@ export const themeColours = {
     dark: {
         backgroundColor:darkThemeColor,
         inverseColor: lightThemeColor,
+        toggle : {
+            sunColor : lightThemeColor,
+        },
         boat : {
             seaColor : lightThemeColor,
             waveColor : "#2BE3FA"
@@ -51,25 +57,17 @@ export const ThemeProvider = ({children}: Props) => {
     );
 
     const setTheme = (name: ThemeName) => {
-        document.body.style.setProperty(
-            "--theme-background-color",
-            themeColours[name].backgroundColor
-        );
-        document.body.style.setProperty(
-            "--theme-inverse-color",
-            themeColours[name].inverseColor
-        );
 
+        // Theme Colors Css updates
+        document.body.style.setProperty("--theme-background-color", themeColours[name].backgroundColor);
+        document.body.style.setProperty("--theme-inverse-color", themeColours[name].inverseColor);
 
-        document.body.style.setProperty(
-            "--boat-sea-color",
-            themeColours[name].boat.seaColor
-        );
+        // Toggle Css Updates
+        document.body.style.setProperty("--toggle-sun-color", themeColours[name].toggle.sunColor);
 
-        document.body.style.setProperty(
-            "--boat-wave-color",
-            themeColours[name].boat.waveColor
-        );
+        // Boat Css Updates
+        document.body.style.setProperty("--boat-sea-color", themeColours[name].boat.seaColor);
+        document.body.style.setProperty("--boat-wave-color", themeColours[name].boat.waveColor);
 
         setThemeName(name);
     };

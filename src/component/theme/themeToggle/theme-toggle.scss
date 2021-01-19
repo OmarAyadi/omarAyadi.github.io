@@ -1,0 +1,124 @@
+// ==================
+// theme-toggle
+//  ==================
+
+$theme-toggle-size: 37px;
+
+.theme-toggle {
+  height: $theme-toggle-size;
+  width: $theme-toggle-size;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .theme-toggle-sun {
+    background: var(--toggle-sun-color);
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 4px solid var(--theme-background-color);
+    transition: all 0.5s linear, border 0.5s linear;
+  }
+
+  .theme-toggle-sun__ray {
+    width: 3px;
+    background: var(--toggle-sun-color);
+    display: block;
+    //height: 121%;
+    height: 47px;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.5s linear, height 0.3s ease-in-out;
+    border-radius: 50px;
+
+
+    $columns: 12;
+    @for $i from 1 through $columns {
+      &:nth-child(#{$i}) {
+        transform: rotate(calc(#{$i} * calc(360deg / #{$columns})));
+      }
+    }
+  }
+
+  &:hover .theme-toggle-sun__ray {
+    $columns: 12;
+
+
+    @for $i from 1 through $columns {
+      &:nth-child(#{$i}) {
+        transform: rotate(
+                        calc(calc(#{$i} * calc(360deg / #{$columns})) - 20deg)
+        );
+      }
+    }
+  }
+}
+
+.theme-toggle-moon {
+  height: 27px;
+  width: 27px;
+  position: absolute;
+  background: var(--theme-background-color);
+  //background: red;
+  border-radius: 50%;
+  top : 0;
+  right : 0;
+  transform: scale(0) translate(25%, -25%);
+  z-index: 9;
+  transition: all 0.5s linear;
+  transform-origin: right;
+}
+
+.theme__dark {
+  .theme-toggle {
+    transition: all 0.5s linear;
+  }
+
+  .theme-toggle:hover {
+    .theme-toggle-moon {
+      transform: scale(1) translate(-3%, -18%);
+    }
+  }
+
+  .theme-toggle-moon {
+    transition: all 0.5s linear;
+    transform: scale(1) translate(11%, -11%);
+  }
+
+  .theme-toggle .theme-toggle-sun__ray {
+    height: 0;
+    transition: 0.5s, transform 0.5s, height 0.2s 0.1s;
+
+    $columns: 12;
+    @for $i from 1 through $columns {
+      &:nth-child(#{$i}) {
+        transform: rotate(
+                        calc(calc(#{$i} * calc(360deg / #{$columns})) - 45deg)
+        );
+      }
+    }
+  }
+}
+
+@keyframes in {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes out {
+  0% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+

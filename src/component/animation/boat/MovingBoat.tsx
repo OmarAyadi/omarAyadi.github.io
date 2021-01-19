@@ -2,6 +2,20 @@ import React from 'react';
 import './moving-boat.scss'
 
 function MovingBoat() {
+
+    const createWaves = (wavesNumber: number) => {
+
+        const waves: Array<JSX.Element> = []
+
+
+        for (let i = 0; i < wavesNumber; i++) {
+            waves.push(<div key={i} className="wave">
+                <div className="graphic"></div>
+            </div>)
+        }
+        return waves
+    }
+
     return (
         <div className="summerdream">
             <div className="sea">
@@ -15,280 +29,13 @@ function MovingBoat() {
                         <div className="body">
                             <div className="waves">
                                 <div className="bodywaves">
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
+                                    {createWaves(50)}
                                 </div>
                                 <div className="oarwaves -left">
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
+                                    {createWaves(20)}
                                 </div>
                                 <div className="oarwaves -right">
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
-                                    <div className="wave">
-                                        <div className="graphic"></div>
-                                    </div>
+                                    {createWaves(20)}
                                 </div>
                             </div>
                             <div className="base"></div>

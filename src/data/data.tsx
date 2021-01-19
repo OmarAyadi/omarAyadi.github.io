@@ -1,7 +1,5 @@
 import React from "react";
 
-import {Hero, Profile_Logo,} from '../static';
-
 import {
     AiFillGithub,
     AiFillGitlab,
@@ -14,26 +12,8 @@ import {
     FaInstagram,
     FaLinkedinIn,
     FaMediumM,
-    IoIosAirplane,
-    IoIosCodeWorking,
-    SiAboutDotMe
+    IoIosAirplane
 } from 'react-icons/all'
-
-
-export const Side_Bar_Data = [
-    {
-        title: "About Me",
-        path: "/about",
-        icon: <SiAboutDotMe/>,
-        cName: 'nav-text'
-    },
-    {
-        title: "Work",
-        path: "/work",
-        icon: <IoIosCodeWorking/>,
-        cName: 'nav-text'
-    }
-]
 
 export const Social_Media_Info = [
     {
@@ -76,10 +56,8 @@ export const Social_Media_Info = [
 
 export const User_Profile_Data = {
     name: "Mohamed Omar Ayadi",
-    job: "Software Engineer",
+    job: "Web Engineer",
     email: "m.omar.ayadi@gmail.com",
-    profileLogo: Profile_Logo,
-    additionalPicture: Hero,
     quota: "Look inside to know a person, everything out is just an illusion",
 }
 

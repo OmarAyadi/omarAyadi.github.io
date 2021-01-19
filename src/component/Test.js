@@ -1,15 +1,14 @@
 import React from 'react';
 
 import './test.css'
-import {NavBar} from "./navBar";
+import {Profile} from "./profile";
+import {Layout} from "./screen";
 
 function Test() {
-
-
     return (
-        <div className="test2">
-            <NavBar/>
-        </div>
+        <Layout>
+            <Profile/>
+        </Layout>
     );
 }
 

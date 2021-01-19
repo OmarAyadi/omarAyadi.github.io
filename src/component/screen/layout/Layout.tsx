@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from "../footer/Footer";
 
 import './layout.scss'
-import {useSplashScreen} from "..";
 import {NavBar} from "../../navBar";
 
 
@@ -11,11 +10,9 @@ type LayoutProps = {
 }
 
 function Layout({children}: LayoutProps) {
-    const [loading, SplashScreen] = useSplashScreen()
 
     return (
         <>
-            {loading ? SplashScreen :
                 <div className="layout">
                     <div className="layout-top">
                         <NavBar/>
@@ -27,7 +24,6 @@ function Layout({children}: LayoutProps) {
                         <Footer/>
                     </div>
                 </div>
-            }
         </>
     );
 }

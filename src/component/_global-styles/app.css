@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Terminal+Dosis&display=swap");
 :root {
+  --font-family: 'Terminal Dosis', serif;
+  --theme-transition: background-color 0.5s linear, color 0.5s linear;
   --theme-background-color: whitesmoke;
   --theme-inverse-color: #323232;
-  --font-family: 'Terminal Dosis', serif;
   --boat-sea-color: "#2BE3FA";
-  --boat-wave-color: "#fff"; }
+  --boat-wave-color: "#fff";
+  --toggle-sun-color: "#eec413"; }
 
 * {
   box-sizing: border-box;
@@ -17,5 +19,20 @@ body {
   font-family: 'Terminal Dosis', serif;
   transition: background-color 0.5s linear, color 0.5s linear;
   height: 100vh; }
+
+.appLayout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; }
+  .appLayout-top {
+    flex: .1; }
+  .appLayout-body {
+    flex: .89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .appLayout-end {
+    flex: .01; }
 
 /*# sourceMappingURL=app.css.map */

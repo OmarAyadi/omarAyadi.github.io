@@ -1,0 +1,133 @@
+.theme-toggle {
+  height: 37px;
+  width: 37px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; }
+  .theme-toggle .theme-toggle-sun {
+    background: var(--toggle-sun-color);
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 4px solid var(--theme-background-color);
+    transition: all 0.5s linear, border 0.5s linear; }
+  .theme-toggle .theme-toggle-sun__ray {
+    width: 3px;
+    background: var(--toggle-sun-color);
+    display: block;
+    height: 47px;
+    position: absolute;
+    z-index: -1;
+    transition: all 0.5s linear, height 0.3s ease-in-out;
+    border-radius: 50px; }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(1) {
+      transform: rotate(calc(1 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(2) {
+      transform: rotate(calc(2 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(3) {
+      transform: rotate(calc(3 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(4) {
+      transform: rotate(calc(4 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(5) {
+      transform: rotate(calc(5 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(6) {
+      transform: rotate(calc(6 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(7) {
+      transform: rotate(calc(7 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(8) {
+      transform: rotate(calc(8 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(9) {
+      transform: rotate(calc(9 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(10) {
+      transform: rotate(calc(10 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(11) {
+      transform: rotate(calc(11 * calc(360deg / 12))); }
+    .theme-toggle .theme-toggle-sun__ray:nth-child(12) {
+      transform: rotate(calc(12 * calc(360deg / 12))); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(1) {
+    transform: rotate(calc(calc(1 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(2) {
+    transform: rotate(calc(calc(2 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(3) {
+    transform: rotate(calc(calc(3 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(4) {
+    transform: rotate(calc(calc(4 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(5) {
+    transform: rotate(calc(calc(5 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(6) {
+    transform: rotate(calc(calc(6 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(7) {
+    transform: rotate(calc(calc(7 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(8) {
+    transform: rotate(calc(calc(8 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(9) {
+    transform: rotate(calc(calc(9 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(10) {
+    transform: rotate(calc(calc(10 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(11) {
+    transform: rotate(calc(calc(11 * calc(360deg / 12)) - 20deg)); }
+  .theme-toggle:hover .theme-toggle-sun__ray:nth-child(12) {
+    transform: rotate(calc(calc(12 * calc(360deg / 12)) - 20deg)); }
+
+.theme-toggle-moon {
+  height: 27px;
+  width: 27px;
+  position: absolute;
+  background: var(--theme-background-color);
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  transform: scale(0) translate(25%, -25%);
+  z-index: 9;
+  transition: all 0.5s linear;
+  transform-origin: right; }
+
+.theme__dark .theme-toggle {
+  transition: all 0.5s linear; }
+.theme__dark .theme-toggle:hover .theme-toggle-moon {
+  transform: scale(1) translate(-3%, -18%); }
+.theme__dark .theme-toggle-moon {
+  transition: all 0.5s linear;
+  transform: scale(1) translate(11%, -11%); }
+.theme__dark .theme-toggle .theme-toggle-sun__ray {
+  height: 0;
+  transition: 0.5s, transform 0.5s, height 0.2s 0.1s; }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(1) {
+    transform: rotate(calc(calc(1 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(2) {
+    transform: rotate(calc(calc(2 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(3) {
+    transform: rotate(calc(calc(3 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(4) {
+    transform: rotate(calc(calc(4 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(5) {
+    transform: rotate(calc(calc(5 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(6) {
+    transform: rotate(calc(calc(6 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(7) {
+    transform: rotate(calc(calc(7 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(8) {
+    transform: rotate(calc(calc(8 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(9) {
+    transform: rotate(calc(calc(9 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(10) {
+    transform: rotate(calc(calc(10 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(11) {
+    transform: rotate(calc(calc(11 * calc(360deg / 12)) - 45deg)); }
+  .theme__dark .theme-toggle .theme-toggle-sun__ray:nth-child(12) {
+    transform: rotate(calc(calc(12 * calc(360deg / 12)) - 45deg)); }
+
+@keyframes in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes out {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*# sourceMappingURL=theme-toggle.css.map */
