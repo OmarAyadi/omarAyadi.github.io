@@ -1,14 +1,15 @@
 import React from 'react';
 
 import './test.css'
-import {Profile} from "./profile";
-import {Layout} from "./screen";
+import {useThemeToggle} from "./theme";
 
 function Test() {
+    const {themeToggle} = useThemeToggle()
     return (
-        <Layout>
-            <Profile/>
-        </Layout>
+        <div className="">
+            {themeToggle}
+            Hello
+        </div>
     );
 }
 

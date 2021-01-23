@@ -13,23 +13,23 @@ function NavBar() {
 
     const navItems = [
         {
+            text: "Home",
+            link: "/",
+            style: style
+        },
+        {
             text: "About",
-            link: "#",
+            link: "/about",
             style: style
         },
         {
             text: "Work",
-            link: "#",
+            link: "/work",
             style: style
         },
         {
             text: "Projects",
-            link: "#",
-            style: style
-        },
-        {
-            text: "Contact",
-            link: "#",
+            link: "/projects",
             style: style
         },
     ]
@@ -42,7 +42,7 @@ function NavBar() {
             </div>
 
             <div className="nav-bar-right">
-                <div className="nav-bar-items">
+                <div className="nav-bar-items" style={{display:"none"}}>
                     {
                         navItems.map(
                             ({text, link, style}, index) => (

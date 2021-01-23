@@ -17,7 +17,6 @@
   .rolling-text .rolling-text-letter {
     display: inline-block;
     font-weight: 800;
-    transition: transform 0.4s cubic-bezier(0.76, 0, 0.24, 1); }
   .rolling-text:after {
     content: ""; }
 

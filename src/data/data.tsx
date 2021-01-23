@@ -8,8 +8,7 @@ import {
     CgGames,
     FaBasketballBall,
     FaCameraRetro,
-    FaFacebookF,
-    FaInstagram,
+    GrFacebookOption,
     FaLinkedinIn,
     FaMediumM,
     IoIosAirplane
@@ -35,44 +34,38 @@ export const Social_Media_Info = [
         cName: 'linked-in'
     },
     {
-        title: "Facebook",
-        path: "https://www.facebook.com/miroutch",
-        icon: <FaFacebookF/>,
-        cName: 'facebook'
-    },
-    {
-        title: "Instagram",
-        path: "https://www.instagram.com/ayadiomar93",
-        icon: <FaInstagram/>,
-        cName: 'instagram'
-    },
-    {
         title: "Medium",
         path: "https://omarayadi.medium.com/",
         icon: <FaMediumM/>,
         cName: 'medium'
+    },
+    {
+        title: "Facebook",
+        path: "https://www.facebook.com/miroutch",
+        icon: <GrFacebookOption/>,
+        cName: 'facebook'
     },
 ]
 
 export const User_Profile_Data = {
     name: "Mohamed Omar Ayadi",
     job: "Web Engineer",
+    subJob: "Back-end, Front-end.",
     email: "m.omar.ayadi@gmail.com",
     quota: "Look inside to know a person, everything out is just an illusion",
 }
 
 export const About_Me = {
-    awards: [
+    award:
         {
-            name: "Presidential Award (Best Grade In Engineering)",
+            name: "Presidential Award In Engineering",
             date: "2018",
-        }
-    ],
+        },
     description:
-        "I have a clear, logical mind with a practical approach to problem solving and " +
+        "I am engineer from Tunisia. I have a clear, logical mind with a practical approach to problem solving and " +
         "a drive to see things through to completion. I have a great eye for detail. I am " +
         "eager to learn, I enjoy overcoming challenges, and i have a genuine interest in " +
-        "Programing, Networking and new technologies.",
+        "turning great ideas into great software.",
     education: [
         {
             major: "Applied License in embedded electronics",
@@ -118,10 +111,16 @@ export const About_Me = {
     ]
 }
 
-export const Work = [
+export const User_Work = [
     {
-        period: "09/2018 - 08/2019",
-        company: "Target Energy Solutions (Tunisia)",
+        period: {
+            start: "09/2018",
+            end: "08/2019"
+        },
+        company: {
+            name: "Target Energy Solutions",
+            website: "https://www.target-energysolutions.com/"
+        },
         jobTitle: "Junior Back-End Engineer",
         tasks: [
             "Ensure continuous development, improvements and updates with test driven development from early until end of project",
@@ -130,8 +129,14 @@ export const Work = [
         ]
     },
     {
-        period: "09/2019 - Present",
-        company: "Target Energy Solutions (Tunisia)",
+        period: {
+            start: "09/2019",
+            end: "Present"
+        },
+        company: {
+            name: "Target Energy Solutions",
+            website: "https://www.target-energysolutions.com/"
+        },
         jobTitle: "Senior Back-End Engineer",
         tasks: [
             "Create and maintain scalable back-end projects",
@@ -143,7 +148,7 @@ export const Work = [
     }
 ]
 
-export const Skills = {
+export const Skills_Data = {
     technical: [
         "Java",
         "Kotlin",

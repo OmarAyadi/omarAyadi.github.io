@@ -2,17 +2,21 @@ import React from 'react';
 import Footer from "../footer/Footer";
 
 import './layout.scss'
+import {useSplashScreen} from "..";
 import {NavBar} from "../../navBar";
 
 
 type LayoutProps = {
-    children: React.ReactNode
+    useSplash : boolean,
+    children: React.ReactNode,
 }
 
-function Layout({children}: LayoutProps) {
+function Layout({useSplash, children}: LayoutProps) {
+    const [loading, SplashScreen] = useSplashScreen()
 
     return (
         <>
+            {useSplash && loading ? SplashScreen :
                 <div className="layout">
                     <div className="layout-top">
                         <NavBar/>
@@ -24,6 +28,7 @@ function Layout({children}: LayoutProps) {
                         <Footer/>
                     </div>
                 </div>
+            }
         </>
     );
 }

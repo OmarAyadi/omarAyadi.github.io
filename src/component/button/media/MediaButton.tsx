@@ -11,7 +11,6 @@ type MediaButtonProps = {
 
 function MediaButton({Icon, text, cName}: MediaButtonProps) {
 
-
     return (
         <>
             <div className="media-button-wrapper">

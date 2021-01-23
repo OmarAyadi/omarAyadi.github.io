@@ -1,6 +1,7 @@
 #movingPlanet {
   height: 400px;
-  width: 400px; }
+  width: 400px;
+  position: relative; }
   #movingPlanet .orbit {
     border: solid;
     border-color: var(--theme-inverse-color) transparent transparent transparent;
@@ -42,15 +43,45 @@
         top: 8px;
         width: 12px; }
 
-#movingPlanet__sun {
-  background-color: yellow;
+#movingPlanet__sun_background {
+  background-color: #fed680;
   border-radius: 50%;
-  box-shadow: 0 0 10px var(--theme-inverse-color);
+  box-shadow: 0 0 20px rgba(254, 214, 128, 0.9);
   height: 100px;
   left: 150px;
   position: absolute;
   top: 150px;
   width: 100px; }
+
+#movingPlanet__sun {
+  background-color: #fed680;
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(254, 214, 128, 0.7);
+  height: 100px;
+  left: 150px;
+  position: absolute;
+  top: 150px;
+  width: 100px; }
+  #movingPlanet__sun::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #fcc179;
+    z-index: 99;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px; }
+  #movingPlanet__sun::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #fcc179;
+    z-index: 99;
+    border-radius: 50%;
+    top: 60px;
+    left: 60px; }
 
 @-webkit-keyframes orbit {
   to {

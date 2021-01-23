@@ -6,6 +6,7 @@
   width: 100%;
   flex-wrap: wrap;
   align-content: space-around;
+  cursor: default;
 
   .profile_content {
     @include flex-center(column);
@@ -39,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
 
 
   .profile_content {
@@ -51,5 +52,11 @@
   }
 }
 
+
+@media (max-width: 500px) {
+  .profile{
+    @include flex-center(column);
+  }
+}
 
 

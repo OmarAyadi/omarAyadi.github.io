@@ -35,8 +35,20 @@
     font-size: 32px;
     opacity: 0; }
     .splash-screen-box-title .splash-screen-box-block-name span {
-      color: #ffb510;
-      padding-left: 3px; }
+      width: 0px;
+      height: 0px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      background: #ffb510;
+      -webkit-animation: load 0.6s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+      animation: popIn 0.8s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+      animation-delay: 2s;
+      margin-left: 5px;
+      margin-top: -10px;
+      position: absolute;
+      bottom: 13px;
+      transform: translateY(-3px); }
 
 .splash-screen-box-role {
   width: 100%;
@@ -96,5 +108,33 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+@keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0; }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px; }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 15px; }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px; }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 13px; } }
 
 /*# sourceMappingURL=splash_screen.css.map */

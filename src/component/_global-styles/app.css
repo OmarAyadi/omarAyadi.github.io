@@ -4,9 +4,15 @@
   --theme-transition: background-color 0.5s linear, color 0.5s linear;
   --theme-background-color: whitesmoke;
   --theme-inverse-color: #323232;
-  --boat-sea-color: "#2BE3FA";
-  --boat-wave-color: "#fff";
-  --toggle-sun-color: "#eec413"; }
+  --boat-sea-color: #2BE3FA;
+  --boat-wave-color: white;
+  --toggle-sun-color: #eec413;
+  --whale-moon-color: #bcbcbc;
+  --whale-moon-shadow-color: #818181;
+  --whale-cloud-color: #ffc7c7;
+  --whale-cloud-shadow-color: #fea9a9;
+  --whale-color: slateblue;
+  --whale-shadow-color: darkslateblue; }
 
 * {
   box-sizing: border-box;
@@ -19,20 +25,5 @@ body {
   font-family: 'Terminal Dosis', serif;
   transition: background-color 0.5s linear, color 0.5s linear;
   height: 100vh; }
-
-.appLayout {
-  display: flex;
-  flex-direction: column;
-  height: 100vh; }
-  .appLayout-top {
-    flex: .1; }
-  .appLayout-body {
-    flex: .89;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
-  .appLayout-end {
-    flex: .01; }
 
 /*# sourceMappingURL=app.css.map */

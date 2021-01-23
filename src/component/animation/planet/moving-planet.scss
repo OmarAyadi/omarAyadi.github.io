@@ -1,6 +1,7 @@
 #movingPlanet {
   height: 400px;
   width: 400px;
+  position: relative;
 
   .orbit {
     border: solid;
@@ -57,16 +58,50 @@
   }
 }
 
-
-#movingPlanet__sun {
-  background-color: yellow;
+#movingPlanet__sun_background {
+  background-color: hsl(41, 99%, 75%);
   border-radius: 50%;
-  box-shadow: 0 0 10px var(--theme-inverse-color);
+  box-shadow: 0 0 20px rgba(hsl(41, 99%, 75%),0.9);
   height: 100px;
   left: 150px;
   position: absolute;
   top: 150px;
   width: 100px;
+}
+
+#movingPlanet__sun {
+  background-color: hsl(41, 99%, 75%);
+  border-radius: 50%;
+  box-shadow: 0 0 30px rgba(hsl(41, 99%, 75%),0.7);
+  height: 100px;
+  left: 150px;
+  position: absolute;
+  top: 150px;
+  width: 100px;
+
+  &::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: hsl(33, 95%, 73%);
+    z-index: 99;
+    border-radius: 50%;
+    top : 20px;
+    left: 20px;
+  }
+
+  &::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: hsl(33, 95%, 73%);
+    z-index: 99;
+    border-radius: 50%;
+    top : 60px;
+    left: 60px;
+  }
 }
 
 

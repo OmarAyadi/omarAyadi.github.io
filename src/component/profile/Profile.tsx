@@ -5,26 +5,29 @@ import {HoverButton} from "../button";
 import {MovingBoat} from "../animation";
 
 import './profile.scss'
+import {Layout} from "../screen";
 
 
 function Profile() {
 
-    const {name, job} = User_Profile_Data
+    const {name, job, subJob} = User_Profile_Data
+
     return (
+        <Layout useSplash={false}>
             <div className="profile">
                 <div className="profile_content">
                     <div className="profile_content_info">
-                        <p className="profile_name">
+                        <div className="profile_name">
                             {name}
-                        </p>
-                        <p className="profile_job">
-                            <TypedText text={job + ", Back-end, Front-end."}/>
-                        </p>
+                        </div>
+                        <div className="profile_job">
+                            <TypedText text={`${job}, ${subJob}`}/>
+                        </div>
                     </div>
-                    <div className="profile_about">
+                    <div className="profile_about" style={{display: "none"}}>
                         <HoverButton
                             link="/"
-                            text="About Me"
+                            text="LEARN MORE"
                         />
                     </div>
                 </div>
@@ -33,6 +36,7 @@ function Profile() {
                     <MovingBoat/>
                 </div>
             </div>
+        </Layout>
     );
 }
 

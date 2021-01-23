@@ -1,0 +1,55 @@
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  cursor: default; }
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  height: 400px; }
+
+.about-title {
+  font-size: 45px; }
+
+.about-description {
+  font-size: 25px;
+  text-align: justify; }
+  .about-description > span {
+    padding-left: 30px; }
+
+.about-award {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .about-award-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; }
+  .about-award-name {
+    text-align: center;
+    width: 200px; }
+  .about-award-icon {
+    font-size: 60px; }
+
+.about-animation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px; }
+  @media (max-width: 500px) {
+    .about-animation {
+      padding: 0; } }
+
+/*# sourceMappingURL=about.css.map */

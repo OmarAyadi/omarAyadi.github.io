@@ -30,7 +30,7 @@ function RollingText({text, link, style} : RollingTextProps) {
                 (char, index) => (
                     <span key={index}
                           style={{
-                              transitionDelay : 0.1*index + "s"
+                              transitionDelay : 0.03*index + "s"
                           }}
                           className="rolling-text-letter">
                         {char}

@@ -7,23 +7,39 @@ export const themeColours = {
     light: {
         backgroundColor: lightThemeColor,
         inverseColor: darkThemeColor,
-        toggle : {
-            sunColor : "#eec413" ,
+        toggle: {
+            sunColor: "#eec413",
         },
-        boat : {
-            seaColor : "#2BE3FA",
-            waveColor : lightThemeColor
+        boat: {
+            seaColor: "#2BE3FA",
+            waveColor: lightThemeColor
+        },
+        whale: {
+            moonColor: "#bcbcbc",
+            moonShadowColor: "#818181",
+            cloudColor: "#ffc7c7",
+            cloudShadowColor: "#fea9a9",
+            whaleColor: "slateblue",
+            whaleShadowColor: "darkslateblue"
         }
     },
     dark: {
-        backgroundColor:darkThemeColor,
+        backgroundColor: darkThemeColor,
         inverseColor: lightThemeColor,
-        toggle : {
-            sunColor : lightThemeColor,
+        toggle: {
+            sunColor: lightThemeColor,
         },
-        boat : {
-            seaColor : lightThemeColor,
-            waveColor : "#2BE3FA"
+        boat: {
+            seaColor: lightThemeColor,
+            waveColor: "#2BE3FA"
+        },
+        whale: {
+            moonColor: lightThemeColor,
+            moonShadowColor: "grey",
+            cloudColor: lightThemeColor,
+            cloudShadowColor: "grey",
+            whaleColor: "#a685e2",
+            whaleShadowColor: "#9064df"
         }
     }
 };
@@ -68,6 +84,15 @@ export const ThemeProvider = ({children}: Props) => {
         // Boat Css Updates
         document.body.style.setProperty("--boat-sea-color", themeColours[name].boat.seaColor);
         document.body.style.setProperty("--boat-wave-color", themeColours[name].boat.waveColor);
+
+        // whale Css Updates
+        document.body.style.setProperty("--whale-moon-color", themeColours[name].whale.moonColor);
+        document.body.style.setProperty("--whale-moon-shadow-color", themeColours[name].whale.moonShadowColor);
+        document.body.style.setProperty("--whale-cloud-color", themeColours[name].whale.cloudColor);
+        document.body.style.setProperty("--whale-cloud-shadow-color", themeColours[name].whale.cloudShadowColor);
+        document.body.style.setProperty("--whale-color", themeColours[name].whale.whaleColor);
+        document.body.style.setProperty("--whale-shadow-color", themeColours[name].whale.whaleShadowColor);
+
 
         setThemeName(name);
     };

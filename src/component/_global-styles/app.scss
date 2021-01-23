@@ -4,7 +4,7 @@
 :root {
   // Global Static values
   --font-family: 'Terminal Dosis', serif;
-  --theme-transition : background-color 0.5s linear, color 0.5s linear;
+  --theme-transition: background-color 0.5s linear, color 0.5s linear;
 
   // Values will be updated by ThemeContext
   // Global Theme
@@ -12,11 +12,19 @@
   --theme-inverse-color: #323232;
 
   // MovingBoat values
-  --boat-sea-color: "#2BE3FA";
-  --boat-wave-color: "#fff";
+  --boat-sea-color: #2BE3FA;
+  --boat-wave-color: white;
 
   // ThemeToggle values
-  --toggle-sun-color: "#eec413";
+  --toggle-sun-color: #eec413;
+
+  // Whale values
+  --whale-moon-color: #bcbcbc;
+  --whale-moon-shadow-color: #818181;
+  --whale-cloud-color: #ffc7c7;
+  --whale-cloud-shadow-color: #fea9a9;
+  --whale-color: slateblue;
+  --whale-shadow-color: darkslateblue;
 
 }
 
@@ -32,23 +40,4 @@ body {
   font-family: 'Terminal Dosis', serif;
   transition: background-color 0.5s linear, color 0.5s linear;
   height: 100vh;
-}
-
-
-.appLayout{
-  @include flex(column);
-  height: 100vh;
-
-   &-top{
-    flex: .1;
-  }
-
-   &-body{
-    flex: .89;
-    @include flex-center(row);
-  }
-
-  &-end{
-    flex : .01;
-  }
 }

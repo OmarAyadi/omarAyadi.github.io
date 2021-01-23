@@ -23,7 +23,7 @@ export const useSplashScreen = () => {
             <div className="splash-screen-box">
                 <div className="splash-screen-box-title">
                     <div className="splash-screen-box-block"/>
-                    <h1 className="splash-screen-box-block-name">{name}<span>.</span></h1>
+                    <h1 className="splash-screen-box-block-name">{name}<span></span></h1>
                 </div>
                 <div className="splash-screen-box-role">
                     <div className="splash-screen-box-block"/>

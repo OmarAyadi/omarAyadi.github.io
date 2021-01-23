@@ -5,6 +5,7 @@ function MovingPlanet() {
     return (
         <div id="movingPlanet">
             <div id="movingPlanet__sun"></div>
+            <div id="movingPlanet__sun_background"></div>
             <div className="orbit" id="earth-orbit">
                 <div className="globe" id="earth">
                     <div className="orbit" id="moon-orbit">

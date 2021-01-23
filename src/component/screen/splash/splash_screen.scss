@@ -40,8 +40,21 @@ $box-radius: 7px;
     opacity: 0;
 
     span {
-      color: $ss-box-color;
-      padding-left: 3px;
+      width:0px;
+      height: 0px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+
+      background: $ss-box-color;
+      -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
+      animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
+      animation-delay: 2s;
+      margin-left: 5px;
+      margin-top: -10px;
+      position: absolute;
+      bottom: 13px;
+      transform: translateY(-3px);
     }
   }
 }
@@ -128,3 +141,40 @@ $box-radius: 7px;
     opacity: 1;
   }
 }
+
+@keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px;
+  }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 15px
+  }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px
+  }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 13px;
+
+  }
+}
+
