@@ -21,6 +21,7 @@ $speed: 1;
     overflow: hidden;
     animation:
             surface 13000ms ease-in-out infinite alternate;
+    transition: background-color .5s linear;
 
     .inner {
       width: 600px;

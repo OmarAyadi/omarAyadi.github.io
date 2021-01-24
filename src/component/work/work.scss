@@ -107,6 +107,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 90px;
+
   }
 
   .work_animation {
@@ -117,6 +119,6 @@
 
 @media (max-width: 500px) {
   .work_container {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 }

@@ -11,115 +11,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f8a50e-c797-4b7c-98c7-1053a22c2726" name="Default Changelist" comment=":star2: update portfolio backbone">
-      <change afterPath="$PROJECT_DIR$/src/component/about/.sass-cache/c2b39e5e635e6182972fc43514db8ea0da3dec12/about.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/about.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/about/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/pac-man/.sass-cache/614fedebebef48c059907ab78c687aee4a01f047/pac-man.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/pac-man/PacMan.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/pac-man/pac-man.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/pac-man/pac-man.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/pac-man/pac-man.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/whale/.sass-cache/42af99df93a57abeddb73aed2366f40f2dac3c3a/whale.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/whale/Whale.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/whale/whale.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/whale/whale.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/animation/whale/whale.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/screen/splash/.sass-cache/f8d7993b60bb427bb9aa6b7de00cf3d2ea413f78/splash_screen.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/skill/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/skill/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/skill/skills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/timeline/.sass-cache/62544aed43e82d1623625d4a14c4000525c53473/timeline.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/timeline/TimeLine.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/timeline/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/timeline/timeline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/Work.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/work.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/work.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/work/work.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/skill/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/Test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/app.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/app.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/_global-styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/_global-styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/cat/MovingCat.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/cat/moving-cat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/cat/moving-cat.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/cat/moving-cat.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/lattern/Lantern.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/lattern/lantern.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/lattern/lantern.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/lattern/lantern.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/planet/MovingPlanet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/planet/MovingPlanet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/planet/moving-planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/planet/moving-planet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/planet/moving-planet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/planet/moving-planet.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/animation/planet/moving-planet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/planet/moving-planet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/button/media/MediaButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/media/MediaButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/.sass-cache/c2b39e5e635e6182972fc43514db8ea0da3dec12/about.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/.sass-cache/c2b39e5e635e6182972fc43514db8ea0da3dec12/about.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/about.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/about.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/about/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/.sass-cache/35b96bc7d0a4a1033bd41bd7cae401f7b7d42c56/moving-boat.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/.sass-cache/35b96bc7d0a4a1033bd41bd7cae401f7b7d42c56/moving-boat.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/animation/boat/moving-boat.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/button/hover/HoverButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/hover/HoverButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/button/media/.sass-cache/0fec9ab179f61b5f8ed9d7b8605885ed1ff52ab8/media-button.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/media/.sass-cache/0fec9ab179f61b5f8ed9d7b8605885ed1ff52ab8/media-button.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/button/media/media-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/media/media-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/button/media/media-button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/media/media-button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/button/media/media-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/button/media/media-button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/navBar/.sass-cache/722efdf41146bd524a893e02c23305613608b3b1/navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navBar/.sass-cache/722efdf41146bd524a893e02c23305613608b3b1/navbar.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/navBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/navBar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navBar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/navBar/navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navBar/navbar.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/navBar/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navBar/navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/.sass-cache/5ea6a42746eb98f3ef9aec4f3467bc2e5b00f612/profile.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/.sass-cache/5ea6a42746eb98f3ef9aec4f3467bc2e5b00f612/profile.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/Profile.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/profile.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/profile.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/profile/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/profile/profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/Spinner.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/screen/footer/.sass-cache/a0704a449482415d8165cd866f552a7ccd234c1d/footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/footer/.sass-cache/a0704a449482415d8165cd866f552a7ccd234c1d/footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/screen/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/screen/footer/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/footer/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/screen/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/footer/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/layout/.sass-cache/7c47fc8ca401d43dc8bef04211c99ff65ac86690/layout.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/.sass-cache/7c47fc8ca401d43dc8bef04211c99ff65ac86690/layout.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/layout/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/layout/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/layout.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/screen/not-found/NotFoundScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/not-found/NotFoundScreen.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/screen/splash/SplashScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/splash/SplashScreen.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/splash/splash_screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/splash/splash_screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/splash/splash_screen.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/splash/splash_screen.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/splash/splash_screen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/splash/splash_screen.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/00ea9adceccc5d0018854420c9fb15cb63376bd1/_functions.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/about/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/screen/splash/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/6f938dd5205a022d061c43021408656a32102f1b/_functions.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/timeline/.sass-cache/4a9561c7ce567769e37751538091b674951ba1fe/_functions.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/footer.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/layout.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/not-found-screen.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/spinner.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/.sass-cache/7efd4e79f2e1fc9e3dbadfc20b75cdcf5cfae094/splash_screen.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/spinner.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/screen/styles/spinner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skill/.sass-cache/628aec7017482adf58ef8654bb1034f7b786d5e6/skills.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skill/.sass-cache/628aec7017482adf58ef8654bb1034f7b786d5e6/skills.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skill/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skill/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skill/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skill/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skill/skills.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skill/skills.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/skill/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/skill/skills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/test" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/TestTest.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/apple-design-text/AppleDesignText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/apple-design-text/apple-design-text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/apple-design-text/apple-design-text.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/apple-design-text/apple-design-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/luminance-text/.sass-cache/d1bacda5cf3eb08df0cccccf1c483a8ae7e0bd76/luminance-text.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/luminance-text/LuminanceText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/luminance-text/luminance-text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/luminance-text/luminance-text.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/luminance-text/luminance-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/number-rolling-text/.sass-cache/1ac874792504f422948a439ec22a22837940e3ec/number-rolling-text.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/number-rolling-text/NumberRollingText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/number-rolling-text/number-rolling-text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/number-rolling-text/number-rolling-text.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/number-rolling-text/number-rolling-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/RollingText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/RollingText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/.sass-cache/ffb52c5860a0560f592566dd56f54db5549e0569/rolling-text.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/.sass-cache/ffb52c5860a0560f592566dd56f54db5549e0569/rolling-text.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/test-test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/test-test.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/test-test.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/translating-text/TranslatingText.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/translating-text/translating-text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/translating-text/translating-text.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/text/translating-text/translating-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/theme/ThemeContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/rolling-text/rolling-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/.sass-cache/e65c093de39eef959662fc65b99b7ed2ad8e3ded/spin-text.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/.sass-cache/e65c093de39eef959662fc65b99b7ed2ad8e3ded/spin-text.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/spin-text/spin-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/typed-text/.sass-cache/668e03ac8d9d89ffb07eafb944afb6db360721c5/typed-text.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/typed-text/.sass-cache/668e03ac8d9d89ffb07eafb944afb6db360721c5/typed-text.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/typed-text/typed-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/typed-text/typed-text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/typed-text/typed-text.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/typed-text/typed-text.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/text/typed-text/typed-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/text/typed-text/typed-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/.sass-cache/2f7a736a465b59b0869cc7bb8a20cdd87fd0d3f5/work.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work/.sass-cache/2f7a736a465b59b0869cc7bb8a20cdd87fd0d3f5/work.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/work.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work/work.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/work.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work/work.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/work/work.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/work/work.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -296,6 +252,7 @@
       <workItem from="1611316859164" duration="9240000" />
       <workItem from="1611361594190" duration="3474000" />
       <workItem from="1611401540499" duration="9249000" />
+      <workItem from="1611501979682" duration="10904000" />
     </task>
     <task id="LOCAL-00001" summary=":star2: update portfolio backbone">
       <created>1610475710443</created>
@@ -362,29 +319,29 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="317" y="315" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1610846318548" />
-    <state width="1041" height="155" key="GridCell.Tab.0.bottom" timestamp="1611424442613">
+    <state width="1802" height="155" key="GridCell.Tab.0.bottom" timestamp="1611516665305">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="161" key="GridCell.Tab.0.bottom/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1611328421108" />
-    <state width="1041" height="155" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1611424442613" />
+    <state width="1802" height="155" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1611516665305" />
     <state width="1802" height="210" key="GridCell.Tab.0.bottom/72.27.3768.1053@72.27.3768.1053" timestamp="1611218116529" />
-    <state width="1041" height="155" key="GridCell.Tab.0.center" timestamp="1611424442613">
+    <state width="1802" height="155" key="GridCell.Tab.0.center" timestamp="1611516665302">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="161" key="GridCell.Tab.0.center/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1611328421108" />
-    <state width="1041" height="155" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1611424442613" />
+    <state width="1802" height="155" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1611516665302" />
     <state width="1802" height="210" key="GridCell.Tab.0.center/72.27.3768.1053@72.27.3768.1053" timestamp="1611218116529" />
-    <state width="1041" height="155" key="GridCell.Tab.0.left" timestamp="1611424442613">
+    <state width="1802" height="155" key="GridCell.Tab.0.left" timestamp="1611516665301">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="161" key="GridCell.Tab.0.left/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1611328421108" />
-    <state width="1041" height="155" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1611424442613" />
+    <state width="1802" height="155" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1611516665301" />
     <state width="1802" height="210" key="GridCell.Tab.0.left/72.27.3768.1053@72.27.3768.1053" timestamp="1611218116528" />
-    <state width="1041" height="155" key="GridCell.Tab.0.right" timestamp="1611424442613">
+    <state width="1802" height="155" key="GridCell.Tab.0.right" timestamp="1611516665304">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="161" key="GridCell.Tab.0.right/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1611328421108" />
-    <state width="1041" height="155" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1611424442613" />
+    <state width="1802" height="155" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1611516665304" />
     <state width="1802" height="210" key="GridCell.Tab.0.right/72.27.3768.1053@72.27.3768.1053" timestamp="1611218116529" />
     <state width="1802" height="340" key="GridCell.Tab.1.bottom" timestamp="1611303107982">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -466,16 +423,16 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="172" y="127" width="1648" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1611268715702" />
-    <state x="724" y="140" width="944" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610897491607">
+    <state x="724" y="140" width="944" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611427178782">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="724" y="140" width="534" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1609852974901" />
-    <state x="724" y="140" width="944" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1610897491607" />
-    <state x="225" y="292" width="618" height="586" key="find.popup" timestamp="1611425896000">
+    <state x="724" y="140" width="944" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1611427178782" />
+    <state x="225" y="292" width="618" height="586" key="find.popup" timestamp="1611505527462">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="225" y="292" width="618" height="580" key="find.popup/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1611320674698" />
-    <state x="225" y="292" width="618" height="586" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1611425896000" />
+    <state x="225" y="292" width="618" height="586" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1611505527462" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1610736641579">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -484,11 +441,11 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="252" width="672" height="677" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1611031553805" />
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1611426063054">
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1611518578845">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/72.27.1848.1053@72.27.1848.1053" timestamp="1611324975836" />
-    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1611426063054" />
+    <state x="197" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1611518578845" />
     <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1610659354919">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

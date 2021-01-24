@@ -1,49 +1,30 @@
 @import "../../_global-styles/functions";
 
-.layout{
+.layout {
   @include flex(column);
   height: 100vh;
-  transition: all .5s ease-in;
 
-  .layout-top{
+  .layout-top {
     flex: .1;
   }
 
-  .layout-body{
-    flex: .89;
+  .layout-body {
     @include flex-center(row);
+    flex: .89;
   }
 
-  .layout-bottom{
-    flex : .01;
+  .layout-bottom {
+    flex: .01;
   }
 }
 
 @media (max-width: 500px) {
-  .layout-body{
+  .layout-body {
     height: 80%;
-    transform: scale(0.7);
     flex: 0.7;
   }
 
-  .layout-bottom{
-    flex : .2;
-    padding-bottom: -100px;
-    transform: scale(0.7);
-  }
-}
-
-
-@media (max-width: 400px) {
-  .layout-body{
-    height: 80%;
-    transform: scale(0.6);
-    flex: 0.7;
-  }
-
-  .layout-bottom{
-    flex : .2;
-    padding-bottom: -100px;
-    transform: scale(0.7);
+  .layout-bottom {
+    flex: .2;
   }
 }

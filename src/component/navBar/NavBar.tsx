@@ -28,8 +28,8 @@ function NavBar() {
             style: style
         },
         {
-            text: "Projects",
-            link: "/projects",
+            text: "Skills",
+            link: "/skills",
             style: style
         },
     ]
@@ -42,7 +42,7 @@ function NavBar() {
             </div>
 
             <div className="nav-bar-right">
-                <div className="nav-bar-items" style={{display:"none"}}>
+                <div className="nav-bar-items">
                     {
                         navItems.map(
                             ({text, link, style}, index) => (

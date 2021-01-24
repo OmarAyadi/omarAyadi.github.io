@@ -55,9 +55,25 @@
 .about-animation {
   @include flex-center(row);
   padding-top : 30px;
+}
 
+@media (max-width: 1024px) {
+  .about-content{
+  }
 
-  @media (max-width: 500px) {
-    padding : 0;
+  .about-animation {
+    padding: 90px 0px 90px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-content{
+    transform: scale(0.8);
+    align-items: flex-start;
+  }
+
+  .about-animation {
+    transform: scale(0.8);
+    padding: 0 0 90px;
   }
 }

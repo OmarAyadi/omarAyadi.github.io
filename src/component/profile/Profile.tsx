@@ -10,10 +10,10 @@ import {Layout} from "../screen";
 
 function Profile() {
 
-    const {name, job, subJob} = User_Profile_Data
+    const {name, job, subJob, email} = User_Profile_Data
 
     return (
-        <Layout useSplash={false}>
+        <Layout>
             <div className="profile">
                 <div className="profile_content">
                     <div className="profile_content_info">
@@ -24,9 +24,13 @@ function Profile() {
                             <TypedText text={`${job}, ${subJob}`}/>
                         </div>
                     </div>
-                    <div className="profile_about" style={{display: "none"}}>
+                    <div className="profile_about">
                         <HoverButton
-                            link="/"
+                            onClick={
+                                () => {
+                                    window.location.href = `mailto:${email}`;
+                                }
+                            }
                             text="LEARN MORE"
                         />
                     </div>

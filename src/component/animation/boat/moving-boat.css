@@ -10,7 +10,8 @@
     width: 400px;
     background: var(--boat-sea-color);
     overflow: hidden;
-    animation: surface 13000ms ease-in-out infinite alternate; }
+    animation: surface 13000ms ease-in-out infinite alternate;
+    transition: background-color .5s linear; }
     .sea .surface .inner {
       width: 600px;
       height: 600px;
@@ -110,1055 +111,1055 @@
           background: var(--boat-wave-color);
           animation: surface 2000ms ease-in-out infinite alternate, rotateZ 6000ms linear infinite; }
       .ship .body .waves .bodywaves .wave:nth-child(1) {
-        top: 4px;
-        left: 18px;
-        animation-delay: -10ms; }
+        top: -1px;
+        left: 44px;
+        animation-delay: -2514ms; }
         .ship .body .waves .bodywaves .wave:nth-child(1) .graphic {
-          width: 15px;
-          height: 15px; }
+          width: 16px;
+          height: 10px; }
       .ship .body .waves .bodywaves .wave:nth-child(2) {
-        top: 11px;
-        left: 39px;
-        animation-delay: -3293ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(2) .graphic {
-          width: 18px;
-          height: 11px; }
-      .ship .body .waves .bodywaves .wave:nth-child(3) {
         top: 6px;
-        left: 50px;
-        animation-delay: -1543ms; }
+        left: 33px;
+        animation-delay: -2174ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(2) .graphic {
+          width: 14px;
+          height: 18px; }
+      .ship .body .waves .bodywaves .wave:nth-child(3) {
+        top: -1px;
+        left: 13px;
+        animation-delay: -2142ms; }
         .ship .body .waves .bodywaves .wave:nth-child(3) .graphic {
-          width: 11px;
-          height: 15px; }
-      .ship .body .waves .bodywaves .wave:nth-child(4) {
-        top: 7px;
-        left: 14px;
-        animation-delay: -2509ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(4) .graphic {
-          width: 9px;
+          width: 10px;
           height: 11px; }
+      .ship .body .waves .bodywaves .wave:nth-child(4) {
+        top: 9px;
+        left: 13px;
+        animation-delay: -333ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(4) .graphic {
+          width: 12px;
+          height: 12px; }
       .ship .body .waves .bodywaves .wave:nth-child(5) {
-        top: 2px;
-        left: 15px;
-        animation-delay: -1668ms; }
+        top: 5px;
+        left: 31px;
+        animation-delay: -1315ms; }
         .ship .body .waves .bodywaves .wave:nth-child(5) .graphic {
-          width: 9px;
+          width: 10px;
           height: 15px; }
       .ship .body .waves .bodywaves .wave:nth-child(6) {
-        top: 7px;
-        left: 11px;
-        animation-delay: -293ms; }
+        top: 6px;
+        left: 46px;
+        animation-delay: -207ms; }
         .ship .body .waves .bodywaves .wave:nth-child(6) .graphic {
-          width: 15px;
+          width: 13px;
           height: 12px; }
       .ship .body .waves .bodywaves .wave:nth-child(7) {
-        top: 11px;
-        left: 26px;
-        animation-delay: -2754ms; }
+        top: -1px;
+        left: 24px;
+        animation-delay: -1826ms; }
         .ship .body .waves .bodywaves .wave:nth-child(7) .graphic {
-          width: 15px;
-          height: 18px; }
-      .ship .body .waves .bodywaves .wave:nth-child(8) {
-        top: 2px;
-        left: 15px;
-        animation-delay: -1962ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(8) .graphic {
           width: 12px;
-          height: 14px; }
+          height: 16px; }
+      .ship .body .waves .bodywaves .wave:nth-child(8) {
+        top: 8px;
+        left: 51px;
+        animation-delay: -1631ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(8) .graphic {
+          width: 17px;
+          height: 18px; }
       .ship .body .waves .bodywaves .wave:nth-child(9) {
-        top: 14px;
-        left: 46px;
-        animation-delay: -2480ms; }
+        top: 11px;
+        left: 42px;
+        animation-delay: -3898ms; }
         .ship .body .waves .bodywaves .wave:nth-child(9) .graphic {
           width: 11px;
-          height: 9px; }
-      .ship .body .waves .bodywaves .wave:nth-child(10) {
-        top: 12px;
-        left: 14px;
-        animation-delay: -2542ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(10) .graphic {
-          width: 17px;
-          height: 12px; }
-      .ship .body .waves .bodywaves .wave:nth-child(11) {
-        top: 6px;
-        left: 42px;
-        animation-delay: -677ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(11) .graphic {
-          width: 14px;
-          height: 15px; }
-      .ship .body .waves .bodywaves .wave:nth-child(12) {
-        top: -1px;
-        left: 38px;
-        animation-delay: -290ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(12) .graphic {
-          width: 12px;
           height: 10px; }
-      .ship .body .waves .bodywaves .wave:nth-child(13) {
-        top: 5px;
-        left: 55px;
-        animation-delay: -962ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(13) .graphic {
-          width: 14px;
-          height: 17px; }
-      .ship .body .waves .bodywaves .wave:nth-child(14) {
-        top: 13px;
-        left: 15px;
-        animation-delay: -1359ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(14) .graphic {
-          width: 16px;
-          height: 16px; }
-      .ship .body .waves .bodywaves .wave:nth-child(15) {
-        top: 10px;
-        left: 52px;
-        animation-delay: -924ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(15) .graphic {
-          width: 9px;
-          height: 18px; }
-      .ship .body .waves .bodywaves .wave:nth-child(16) {
-        top: 8px;
-        left: 43px;
-        animation-delay: -3104ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(16) .graphic {
-          width: 17px;
-          height: 13px; }
-      .ship .body .waves .bodywaves .wave:nth-child(17) {
-        top: 4px;
-        left: 58px;
-        animation-delay: -3893ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(17) .graphic {
-          width: 9px;
-          height: 16px; }
-      .ship .body .waves .bodywaves .wave:nth-child(18) {
-        top: 10px;
-        left: 35px;
-        animation-delay: -2899ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(18) .graphic {
-          width: 16px;
-          height: 18px; }
-      .ship .body .waves .bodywaves .wave:nth-child(19) {
-        top: 17px;
-        left: 32px;
-        animation-delay: -165ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(19) .graphic {
-          width: 18px;
-          height: 17px; }
-      .ship .body .waves .bodywaves .wave:nth-child(20) {
-        top: 6px;
-        left: 42px;
-        animation-delay: -767ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(20) .graphic {
-          width: 18px;
-          height: 9px; }
-      .ship .body .waves .bodywaves .wave:nth-child(21) {
-        top: 14px;
-        left: 19px;
-        animation-delay: -2350ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(21) .graphic {
-          width: 12px;
-          height: 13px; }
-      .ship .body .waves .bodywaves .wave:nth-child(22) {
-        top: 9px;
-        left: 43px;
-        animation-delay: -2641ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(22) .graphic {
-          width: 15px;
-          height: 16px; }
-      .ship .body .waves .bodywaves .wave:nth-child(23) {
-        top: 0px;
-        left: 47px;
-        animation-delay: -3473ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(23) .graphic {
-          width: 9px;
-          height: 11px; }
-      .ship .body .waves .bodywaves .wave:nth-child(24) {
-        top: 13px;
-        left: 45px;
-        animation-delay: -1452ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(24) .graphic {
-          width: 17px;
-          height: 15px; }
-      .ship .body .waves .bodywaves .wave:nth-child(25) {
-        top: 9px;
-        left: 59px;
-        animation-delay: -2663ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(25) .graphic {
-          width: 12px;
-          height: 15px; }
-      .ship .body .waves .bodywaves .wave:nth-child(26) {
-        top: 11px;
-        left: 53px;
-        animation-delay: -3157ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(26) .graphic {
-          width: 12px;
-          height: 12px; }
-      .ship .body .waves .bodywaves .wave:nth-child(27) {
-        top: -1px;
-        left: 12px;
-        animation-delay: -2838ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(27) .graphic {
-          width: 13px;
-          height: 9px; }
-      .ship .body .waves .bodywaves .wave:nth-child(28) {
-        top: 12px;
-        left: 54px;
-        animation-delay: -2016ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(28) .graphic {
-          width: 11px;
-          height: 16px; }
-      .ship .body .waves .bodywaves .wave:nth-child(29) {
-        top: 4px;
-        left: 41px;
-        animation-delay: -2294ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(29) .graphic {
-          width: 9px;
-          height: 14px; }
-      .ship .body .waves .bodywaves .wave:nth-child(30) {
-        top: 4px;
-        left: 34px;
-        animation-delay: -1870ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(30) .graphic {
-          width: 13px;
-          height: 14px; }
-      .ship .body .waves .bodywaves .wave:nth-child(31) {
-        top: -1px;
-        left: 43px;
-        animation-delay: -148ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(31) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .bodywaves .wave:nth-child(32) {
-        top: 9px;
-        left: 15px;
-        animation-delay: -1541ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(32) .graphic {
-          width: 14px;
-          height: 14px; }
-      .ship .body .waves .bodywaves .wave:nth-child(33) {
-        top: 6px;
-        left: 42px;
-        animation-delay: -363ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(33) .graphic {
-          width: 16px;
-          height: 15px; }
-      .ship .body .waves .bodywaves .wave:nth-child(34) {
-        top: 14px;
-        left: 55px;
-        animation-delay: -1948ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(34) .graphic {
-          width: 17px;
-          height: 9px; }
-      .ship .body .waves .bodywaves .wave:nth-child(35) {
-        top: -2px;
-        left: 17px;
-        animation-delay: -3784ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(35) .graphic {
-          width: 13px;
-          height: 13px; }
-      .ship .body .waves .bodywaves .wave:nth-child(36) {
-        top: 4px;
-        left: 16px;
-        animation-delay: -1246ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(36) .graphic {
-          width: 9px;
-          height: 17px; }
-      .ship .body .waves .bodywaves .wave:nth-child(37) {
-        top: -1px;
-        left: 38px;
-        animation-delay: -5ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(37) .graphic {
-          width: 14px;
-          height: 9px; }
-      .ship .body .waves .bodywaves .wave:nth-child(38) {
-        top: 16px;
-        left: 14px;
-        animation-delay: -1770ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(38) .graphic {
-          width: 16px;
-          height: 16px; }
-      .ship .body .waves .bodywaves .wave:nth-child(39) {
+      .ship .body .waves .bodywaves .wave:nth-child(10) {
         top: 7px;
         left: 56px;
-        animation-delay: -954ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(39) .graphic {
+        animation-delay: -3368ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(10) .graphic {
+          width: 12px;
+          height: 15px; }
+      .ship .body .waves .bodywaves .wave:nth-child(11) {
+        top: 11px;
+        left: 39px;
+        animation-delay: -1183ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(11) .graphic {
+          width: 15px;
+          height: 17px; }
+      .ship .body .waves .bodywaves .wave:nth-child(12) {
+        top: 8px;
+        left: 60px;
+        animation-delay: -3310ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(12) .graphic {
+          width: 16px;
+          height: 9px; }
+      .ship .body .waves .bodywaves .wave:nth-child(13) {
+        top: 17px;
+        left: 48px;
+        animation-delay: -1260ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(13) .graphic {
+          width: 12px;
+          height: 14px; }
+      .ship .body .waves .bodywaves .wave:nth-child(14) {
+        top: 15px;
+        left: 36px;
+        animation-delay: -3690ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(14) .graphic {
+          width: 17px;
+          height: 17px; }
+      .ship .body .waves .bodywaves .wave:nth-child(15) {
+        top: 13px;
+        left: 17px;
+        animation-delay: -2600ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(15) .graphic {
+          width: 16px;
+          height: 17px; }
+      .ship .body .waves .bodywaves .wave:nth-child(16) {
+        top: 7px;
+        left: 46px;
+        animation-delay: -3695ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(16) .graphic {
+          width: 12px;
+          height: 17px; }
+      .ship .body .waves .bodywaves .wave:nth-child(17) {
+        top: 10px;
+        left: 31px;
+        animation-delay: -2028ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(17) .graphic {
+          width: 16px;
+          height: 14px; }
+      .ship .body .waves .bodywaves .wave:nth-child(18) {
+        top: 0px;
+        left: 50px;
+        animation-delay: -22ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(18) .graphic {
           width: 11px;
+          height: 18px; }
+      .ship .body .waves .bodywaves .wave:nth-child(19) {
+        top: 3px;
+        left: 17px;
+        animation-delay: -824ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(19) .graphic {
+          width: 16px;
+          height: 10px; }
+      .ship .body .waves .bodywaves .wave:nth-child(20) {
+        top: 0px;
+        left: 38px;
+        animation-delay: -847ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(20) .graphic {
+          width: 10px;
+          height: 12px; }
+      .ship .body .waves .bodywaves .wave:nth-child(21) {
+        top: 8px;
+        left: 42px;
+        animation-delay: -2586ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(21) .graphic {
+          width: 9px;
+          height: 12px; }
+      .ship .body .waves .bodywaves .wave:nth-child(22) {
+        top: 7px;
+        left: 18px;
+        animation-delay: -3804ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(22) .graphic {
+          width: 13px;
+          height: 10px; }
+      .ship .body .waves .bodywaves .wave:nth-child(23) {
+        top: 0px;
+        left: 31px;
+        animation-delay: -1572ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(23) .graphic {
+          width: 18px;
+          height: 10px; }
+      .ship .body .waves .bodywaves .wave:nth-child(24) {
+        top: 12px;
+        left: 22px;
+        animation-delay: -3183ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(24) .graphic {
+          width: 18px;
+          height: 10px; }
+      .ship .body .waves .bodywaves .wave:nth-child(25) {
+        top: 13px;
+        left: 44px;
+        animation-delay: -3530ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(25) .graphic {
+          width: 18px;
+          height: 12px; }
+      .ship .body .waves .bodywaves .wave:nth-child(26) {
+        top: 2px;
+        left: 33px;
+        animation-delay: -3467ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(26) .graphic {
+          width: 15px;
+          height: 13px; }
+      .ship .body .waves .bodywaves .wave:nth-child(27) {
+        top: 4px;
+        left: 28px;
+        animation-delay: -2616ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(27) .graphic {
+          width: 15px;
+          height: 16px; }
+      .ship .body .waves .bodywaves .wave:nth-child(28) {
+        top: 2px;
+        left: 37px;
+        animation-delay: -443ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(28) .graphic {
+          width: 14px;
+          height: 14px; }
+      .ship .body .waves .bodywaves .wave:nth-child(29) {
+        top: 11px;
+        left: 34px;
+        animation-delay: -3187ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(29) .graphic {
+          width: 14px;
+          height: 17px; }
+      .ship .body .waves .bodywaves .wave:nth-child(30) {
+        top: 10px;
+        left: 25px;
+        animation-delay: -3114ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(30) .graphic {
+          width: 14px;
+          height: 15px; }
+      .ship .body .waves .bodywaves .wave:nth-child(31) {
+        top: 13px;
+        left: 20px;
+        animation-delay: -634ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(31) .graphic {
+          width: 15px;
+          height: 18px; }
+      .ship .body .waves .bodywaves .wave:nth-child(32) {
+        top: 0px;
+        left: 22px;
+        animation-delay: -3945ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(32) .graphic {
+          width: 15px;
+          height: 16px; }
+      .ship .body .waves .bodywaves .wave:nth-child(33) {
+        top: 11px;
+        left: 32px;
+        animation-delay: -2075ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(33) .graphic {
+          width: 18px;
           height: 11px; }
-      .ship .body .waves .bodywaves .wave:nth-child(40) {
-        top: 1px;
-        left: 30px;
-        animation-delay: -9ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(40) .graphic {
+      .ship .body .waves .bodywaves .wave:nth-child(34) {
+        top: 7px;
+        left: 20px;
+        animation-delay: -260ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(34) .graphic {
+          width: 9px;
+          height: 12px; }
+      .ship .body .waves .bodywaves .wave:nth-child(35) {
+        top: 9px;
+        left: 22px;
+        animation-delay: -2920ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(35) .graphic {
+          width: 17px;
+          height: 12px; }
+      .ship .body .waves .bodywaves .wave:nth-child(36) {
+        top: 5px;
+        left: 59px;
+        animation-delay: -3269ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(36) .graphic {
+          width: 9px;
+          height: 16px; }
+      .ship .body .waves .bodywaves .wave:nth-child(37) {
+        top: 13px;
+        left: 49px;
+        animation-delay: -861ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(37) .graphic {
           width: 16px;
           height: 11px; }
-      .ship .body .waves .bodywaves .wave:nth-child(41) {
-        top: 11px;
-        left: 14px;
-        animation-delay: -2798ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(41) .graphic {
-          width: 13px;
-          height: 15px; }
-      .ship .body .waves .bodywaves .wave:nth-child(42) {
-        top: 5px;
-        left: 37px;
-        animation-delay: -2894ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(42) .graphic {
-          width: 9px;
-          height: 18px; }
-      .ship .body .waves .bodywaves .wave:nth-child(43) {
-        top: -2px;
-        left: 11px;
-        animation-delay: -173ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(43) .graphic {
+      .ship .body .waves .bodywaves .wave:nth-child(38) {
+        top: 9px;
+        left: 56px;
+        animation-delay: -2525ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(38) .graphic {
+          width: 15px;
+          height: 9px; }
+      .ship .body .waves .bodywaves .wave:nth-child(39) {
+        top: 13px;
+        left: 34px;
+        animation-delay: -570ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(39) .graphic {
           width: 17px;
-          height: 10px; }
+          height: 13px; }
+      .ship .body .waves .bodywaves .wave:nth-child(40) {
+        top: 3px;
+        left: 45px;
+        animation-delay: -65ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(40) .graphic {
+          width: 14px;
+          height: 14px; }
+      .ship .body .waves .bodywaves .wave:nth-child(41) {
+        top: 13px;
+        left: 34px;
+        animation-delay: -293ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(41) .graphic {
+          width: 17px;
+          height: 17px; }
+      .ship .body .waves .bodywaves .wave:nth-child(42) {
+        top: 0px;
+        left: 30px;
+        animation-delay: -2434ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(42) .graphic {
+          width: 18px;
+          height: 13px; }
+      .ship .body .waves .bodywaves .wave:nth-child(43) {
+        top: 11px;
+        left: 37px;
+        animation-delay: -2215ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(43) .graphic {
+          width: 12px;
+          height: 12px; }
       .ship .body .waves .bodywaves .wave:nth-child(44) {
-        top: 10px;
-        left: 24px;
-        animation-delay: -2646ms; }
+        top: 13px;
+        left: 13px;
+        animation-delay: -2959ms; }
         .ship .body .waves .bodywaves .wave:nth-child(44) .graphic {
           width: 17px;
-          height: 18px; }
+          height: 16px; }
       .ship .body .waves .bodywaves .wave:nth-child(45) {
-        top: 13px;
-        left: 12px;
-        animation-delay: -2760ms; }
+        top: 5px;
+        left: 24px;
+        animation-delay: -656ms; }
         .ship .body .waves .bodywaves .wave:nth-child(45) .graphic {
-          width: 14px;
-          height: 15px; }
+          width: 16px;
+          height: 16px; }
       .ship .body .waves .bodywaves .wave:nth-child(46) {
-        top: 14px;
-        left: 53px;
-        animation-delay: -3837ms; }
+        top: -2px;
+        left: 52px;
+        animation-delay: -3559ms; }
         .ship .body .waves .bodywaves .wave:nth-child(46) .graphic {
-          width: 11px;
+          width: 9px;
           height: 13px; }
       .ship .body .waves .bodywaves .wave:nth-child(47) {
-        top: 13px;
-        left: 37px;
-        animation-delay: -3625ms; }
+        top: -2px;
+        left: 24px;
+        animation-delay: -795ms; }
         .ship .body .waves .bodywaves .wave:nth-child(47) .graphic {
-          width: 14px;
-          height: 10px; }
+          width: 11px;
+          height: 17px; }
       .ship .body .waves .bodywaves .wave:nth-child(48) {
-        top: 5px;
-        left: 57px;
-        animation-delay: -3176ms; }
+        top: -2px;
+        left: 47px;
+        animation-delay: -2752ms; }
         .ship .body .waves .bodywaves .wave:nth-child(48) .graphic {
-          width: 10px;
-          height: 10px; }
+          width: 18px;
+          height: 17px; }
       .ship .body .waves .bodywaves .wave:nth-child(49) {
-        top: 7px;
-        left: 25px;
-        animation-delay: -189ms; }
+        top: 12px;
+        left: 51px;
+        animation-delay: -1330ms; }
         .ship .body .waves .bodywaves .wave:nth-child(49) .graphic {
-          width: 16px;
-          height: 13px; }
+          width: 13px;
+          height: 11px; }
       .ship .body .waves .bodywaves .wave:nth-child(50) {
-        top: 15px;
-        left: 34px;
-        animation-delay: -2708ms; }
-        .ship .body .waves .bodywaves .wave:nth-child(50) .graphic {
-          width: 12px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(1) {
-        top: -29px;
-        left: 41px;
-        animation-delay: -1632ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(1) .graphic {
-          width: 8px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(2) {
-        top: -23px;
-        left: 49px;
-        animation-delay: -1088ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(2) .graphic {
-          width: 9px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(3) {
-        top: -14px;
-        left: 49px;
-        animation-delay: -1268ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(3) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(4) {
-        top: -22px;
-        left: 42px;
+        top: 0px;
+        left: 30px;
         animation-delay: -1044ms; }
+        .ship .body .waves .bodywaves .wave:nth-child(50) .graphic {
+          width: 10px;
+          height: 13px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(1) {
+        top: -17px;
+        left: 46px;
+        animation-delay: -1272ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(1) .graphic {
+          width: 10px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(2) {
+        top: -15px;
+        left: 43px;
+        animation-delay: -1439ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(2) .graphic {
+          width: 10px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(3) {
+        top: -23px;
+        left: 41px;
+        animation-delay: -1169ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(3) .graphic {
+          width: 6px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(4) {
+        top: -25px;
+        left: 48px;
+        animation-delay: -1410ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(4) .graphic {
           width: 10px;
-          height: 8px; }
+          height: 6px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(5) {
-        top: -27px;
-        left: 47px;
-        animation-delay: -1372ms; }
+        top: -15px;
+        left: 49px;
+        animation-delay: -1475ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(5) .graphic {
           width: 10px;
-          height: 6px; }
+          height: 9px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(6) {
-        top: -22px;
-        left: 43px;
-        animation-delay: -1287ms; }
+        top: -15px;
+        left: 49px;
+        animation-delay: -1282ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(6) .graphic {
-          width: 6px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(7) {
-        top: -28px;
-        left: 43px;
-        animation-delay: -1510ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(7) .graphic {
-          width: 6px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(8) {
-        top: -28px;
-        left: 45px;
-        animation-delay: -1308ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(8) .graphic {
           width: 8px;
           height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(9) {
-        top: -21px;
-        left: 45px;
-        animation-delay: -1175ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(9) .graphic {
+      .ship .body .waves .oarwaves.-left .wave:nth-child(7) {
+        top: -15px;
+        left: 48px;
+        animation-delay: -1635ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(7) .graphic {
+          width: 9px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(8) {
+        top: -20px;
+        left: 48px;
+        animation-delay: -1104ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(8) .graphic {
           width: 9px;
           height: 7px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(9) {
+        top: -16px;
+        left: 49px;
+        animation-delay: -1730ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(9) .graphic {
+          width: 8px;
+          height: 7px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(10) {
-        top: -27px;
-        left: 50px;
-        animation-delay: -1151ms; }
+        top: -20px;
+        left: 49px;
+        animation-delay: -1612ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(10) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(11) {
-        top: -17px;
-        left: 49px;
-        animation-delay: -1556ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(11) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(12) {
-        top: -14px;
-        left: 49px;
-        animation-delay: -1285ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(12) .graphic {
-          width: 9px;
+          width: 8px;
           height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(11) {
+        top: -29px;
+        left: 42px;
+        animation-delay: -1568ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(11) .graphic {
+          width: 6px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(12) {
+        top: -18px;
+        left: 46px;
+        animation-delay: -1374ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(12) .graphic {
+          width: 6px;
+          height: 10px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(13) {
-        top: -21px;
-        left: 49px;
-        animation-delay: -1571ms; }
+        top: -28px;
+        left: 47px;
+        animation-delay: -1788ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(13) .graphic {
           width: 6px;
           height: 8px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(14) {
-        top: -11px;
-        left: 44px;
-        animation-delay: -1329ms; }
+        top: -21px;
+        left: 47px;
+        animation-delay: -1100ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(14) .graphic {
-          width: 6px;
-          height: 8px; }
+          width: 10px;
+          height: 9px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(15) {
         top: -15px;
-        left: 46px;
-        animation-delay: -1396ms; }
+        left: 49px;
+        animation-delay: -1153ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(15) .graphic {
-          width: 9px;
-          height: 6px; }
+          width: 7px;
+          height: 10px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(16) {
-        top: -11px;
-        left: 44px;
-        animation-delay: -1505ms; }
+        top: -28px;
+        left: 46px;
+        animation-delay: -1603ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(16) .graphic {
-          width: 9px;
-          height: 9px; }
+          width: 8px;
+          height: 7px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(17) {
         top: -15px;
-        left: 41px;
-        animation-delay: -1448ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(17) .graphic {
-          width: 8px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(18) {
-        top: -29px;
-        left: 44px;
-        animation-delay: -1263ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(18) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(19) {
-        top: -25px;
         left: 50px;
-        animation-delay: -1423ms; }
+        animation-delay: -1054ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(17) .graphic {
+          width: 6px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(18) {
+        top: -17px;
+        left: 46px;
+        animation-delay: -1551ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(18) .graphic {
+          width: 6px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(19) {
+        top: -16px;
+        left: 43px;
+        animation-delay: -1695ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(19) .graphic {
           width: 9px;
           height: 9px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(20) {
-        top: -27px;
-        left: 42px;
-        animation-delay: -1295ms; }
+        top: -10px;
+        left: 44px;
+        animation-delay: -1274ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(20) .graphic {
           width: 7px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(21) {
-        top: -13px;
-        left: 42px;
-        animation-delay: -1444ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(21) .graphic {
-          width: 6px;
           height: 8px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(22) {
-        top: -29px;
-        left: 49px;
-        animation-delay: -1539ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(22) .graphic {
-          width: 10px;
+      .ship .body .waves .oarwaves.-left .wave:nth-child(21) {
+        top: -21px;
+        left: 44px;
+        animation-delay: -1573ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(21) .graphic {
+          width: 7px;
           height: 9px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(22) {
+        top: -25px;
+        left: 45px;
+        animation-delay: -1286ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(22) .graphic {
+          width: 8px;
+          height: 7px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(23) {
-        top: -22px;
-        left: 43px;
-        animation-delay: -1529ms; }
+        top: -27px;
+        left: 45px;
+        animation-delay: -1237ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(23) .graphic {
           width: 10px;
-          height: 6px; }
+          height: 8px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(24) {
-        top: -27px;
-        left: 47px;
-        animation-delay: -1356ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(24) .graphic {
-          width: 8px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(25) {
-        top: -26px;
-        left: 44px;
-        animation-delay: -1749ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(25) .graphic {
-          width: 9px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(26) {
-        top: -23px;
-        left: 42px;
-        animation-delay: -1691ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(26) .graphic {
-          width: 7px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(27) {
-        top: -10px;
-        left: 45px;
-        animation-delay: -1243ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(27) .graphic {
-          width: 10px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(28) {
-        top: -25px;
+        top: -28px;
         left: 46px;
-        animation-delay: -1414ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(28) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(29) {
-        top: -10px;
-        left: 45px;
-        animation-delay: -1079ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(29) .graphic {
-          width: 10px;
+        animation-delay: -1499ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(24) .graphic {
+          width: 7px;
           height: 10px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(30) {
-        top: -11px;
-        left: 48px;
-        animation-delay: -1511ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(30) .graphic {
+      .ship .body .waves .oarwaves.-left .wave:nth-child(25) {
+        top: -12px;
+        left: 41px;
+        animation-delay: -1737ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(25) .graphic {
+          width: 7px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(26) {
+        top: -28px;
+        left: 44px;
+        animation-delay: -1338ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(26) .graphic {
           width: 6px;
           height: 8px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(31) {
-        top: -10px;
-        left: 48px;
-        animation-delay: -1744ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(31) .graphic {
-          width: 8px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(32) {
-        top: -13px;
-        left: 43px;
-        animation-delay: -1077ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(32) .graphic {
-          width: 10px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(33) {
-        top: -21px;
+      .ship .body .waves .oarwaves.-left .wave:nth-child(27) {
+        top: -17px;
         left: 41px;
-        animation-delay: -1498ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(33) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(34) {
-        top: -21px;
-        left: 46px;
-        animation-delay: -1717ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(34) .graphic {
-          width: 6px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(35) {
-        top: -22px;
-        left: 43px;
-        animation-delay: -1220ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(35) .graphic {
-          width: 10px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(36) {
-        top: -18px;
-        left: 47px;
-        animation-delay: -1560ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(36) .graphic {
+        animation-delay: -1225ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(27) .graphic {
           width: 7px;
           height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(37) {
-        top: -15px;
-        left: 42px;
-        animation-delay: -1540ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(37) .graphic {
-          width: 8px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(38) {
-        top: -19px;
+      .ship .body .waves .oarwaves.-left .wave:nth-child(28) {
+        top: -16px;
+        left: 46px;
+        animation-delay: -1299ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(28) .graphic {
+          width: 7px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(29) {
+        top: -24px;
         left: 50px;
-        animation-delay: -1754ms; }
+        animation-delay: -1102ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(29) .graphic {
+          width: 6px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(30) {
+        top: -22px;
+        left: 47px;
+        animation-delay: -1341ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(30) .graphic {
+          width: 10px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(31) {
+        top: -16px;
+        left: 45px;
+        animation-delay: -1290ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(31) .graphic {
+          width: 9px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(32) {
+        top: -18px;
+        left: 45px;
+        animation-delay: -1098ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(32) .graphic {
+          width: 10px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(33) {
+        top: -17px;
+        left: 46px;
+        animation-delay: -1090ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(33) .graphic {
+          width: 10px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(34) {
+        top: -18px;
+        left: 41px;
+        animation-delay: -1660ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(34) .graphic {
+          width: 10px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(35) {
+        top: -26px;
+        left: 42px;
+        animation-delay: -1758ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(35) .graphic {
+          width: 7px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(36) {
+        top: -29px;
+        left: 48px;
+        animation-delay: -1074ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(36) .graphic {
+          width: 8px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(37) {
+        top: -12px;
+        left: 41px;
+        animation-delay: -1574ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(37) .graphic {
+          width: 6px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(38) {
+        top: -22px;
+        left: 41px;
+        animation-delay: -1677ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(38) .graphic {
           width: 6px;
           height: 10px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(39) {
-        top: -27px;
-        left: 44px;
-        animation-delay: -1011ms; }
+        top: -15px;
+        left: 46px;
+        animation-delay: -1398ms; }
         .ship .body .waves .oarwaves.-left .wave:nth-child(39) .graphic {
           width: 8px;
-          height: 6px; }
+          height: 8px; }
       .ship .body .waves .oarwaves.-left .wave:nth-child(40) {
-        top: -20px;
-        left: 43px;
-        animation-delay: -1492ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(40) .graphic {
-          width: 10px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(41) {
-        top: -13px;
+        top: -23px;
         left: 47px;
-        animation-delay: -1745ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(41) .graphic {
-          width: 10px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(42) {
-        top: -22px;
-        left: 43px;
-        animation-delay: -1689ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(42) .graphic {
-          width: 10px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(43) {
-        top: -25px;
-        left: 50px;
-        animation-delay: -1015ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(43) .graphic {
-          width: 6px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(44) {
-        top: -16px;
-        left: 45px;
-        animation-delay: -1294ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(44) .graphic {
-          width: 7px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(45) {
-        top: -17px;
-        left: 44px;
-        animation-delay: -1296ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(45) .graphic {
-          width: 8px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(46) {
-        top: -15px;
-        left: 44px;
-        animation-delay: -1794ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(46) .graphic {
-          width: 6px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(47) {
-        top: -11px;
-        left: 48px;
-        animation-delay: -1045ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(47) .graphic {
-          width: 7px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(48) {
-        top: -11px;
-        left: 50px;
-        animation-delay: -1211ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(48) .graphic {
+        animation-delay: -1230ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(40) .graphic {
           width: 9px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(49) {
-        top: -24px;
-        left: 41px;
-        animation-delay: -1286ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(49) .graphic {
+          height: 7px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(41) {
+        top: -12px;
+        left: 48px;
+        animation-delay: -1265ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(41) .graphic {
           width: 7px;
           height: 10px; }
-      .ship .body .waves .oarwaves.-left .wave:nth-child(50) {
+      .ship .body .waves .oarwaves.-left .wave:nth-child(42) {
         top: -18px;
         left: 50px;
-        animation-delay: -1142ms; }
-        .ship .body .waves .oarwaves.-left .wave:nth-child(50) .graphic {
-          width: 9px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(1) {
-        top: 50px;
-        left: 45px;
-        animation-delay: -1502ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(1) .graphic {
-          width: 8px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(2) {
-        top: 38px;
-        left: 47px;
-        animation-delay: -1355ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(2) .graphic {
+        animation-delay: -1224ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(42) .graphic {
           width: 7px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(3) {
-        top: 44px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(43) {
+        top: -12px;
+        left: 46px;
+        animation-delay: -1406ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(43) .graphic {
+          width: 6px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(44) {
+        top: -12px;
+        left: 44px;
+        animation-delay: -1339ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(44) .graphic {
+          width: 10px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(45) {
+        top: -10px;
         left: 48px;
-        animation-delay: -1374ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(3) .graphic {
-          width: 7px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(4) {
-        top: 51px;
-        left: 49px;
-        animation-delay: -1260ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(4) .graphic {
-          width: 7px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(5) {
-        top: 47px;
-        left: 41px;
-        animation-delay: -1265ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(5) .graphic {
-          width: 6px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(6) {
-        top: 55px;
-        left: 47px;
-        animation-delay: -1125ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(6) .graphic {
-          width: 6px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(7) {
-        top: 43px;
-        left: 41px;
-        animation-delay: -1423ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(7) .graphic {
-          width: 6px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(8) {
-        top: 39px;
-        left: 46px;
-        animation-delay: -1610ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(8) .graphic {
-          width: 8px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(9) {
-        top: 52px;
-        left: 43px;
-        animation-delay: -1743ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(9) .graphic {
-          width: 9px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(10) {
-        top: 36px;
-        left: 46px;
-        animation-delay: -1396ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(10) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(11) {
-        top: 38px;
-        left: 49px;
-        animation-delay: -1366ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(11) .graphic {
-          width: 6px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(12) {
-        top: 48px;
-        left: 50px;
-        animation-delay: -1371ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(12) .graphic {
-          width: 9px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(13) {
-        top: 48px;
-        left: 46px;
-        animation-delay: -1786ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(13) .graphic {
+        animation-delay: -1495ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(45) .graphic {
           width: 6px;
           height: 7px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(14) {
-        top: 47px;
-        left: 43px;
-        animation-delay: -1174ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(14) .graphic {
-          width: 6px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(15) {
-        top: 42px;
-        left: 49px;
-        animation-delay: -1610ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(15) .graphic {
+      .ship .body .waves .oarwaves.-left .wave:nth-child(46) {
+        top: -26px;
+        left: 44px;
+        animation-delay: -1711ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(46) .graphic {
           width: 7px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(16) {
-        top: 48px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(47) {
+        top: -19px;
         left: 41px;
-        animation-delay: -1749ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(16) .graphic {
-          width: 10px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(17) {
-        top: 47px;
-        left: 46px;
-        animation-delay: -1180ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(17) .graphic {
+        animation-delay: -1568ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(47) .graphic {
+          width: 9px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(48) {
+        top: -29px;
+        left: 43px;
+        animation-delay: -1281ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(48) .graphic {
           width: 8px;
           height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(18) {
-        top: 38px;
+      .ship .body .waves .oarwaves.-left .wave:nth-child(49) {
+        top: -18px;
+        left: 50px;
+        animation-delay: -1260ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(49) .graphic {
+          width: 10px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-left .wave:nth-child(50) {
+        top: -20px;
         left: 44px;
-        animation-delay: -1651ms; }
+        animation-delay: -1678ms; }
+        .ship .body .waves .oarwaves.-left .wave:nth-child(50) .graphic {
+          width: 6px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(1) {
+        top: 51px;
+        left: 45px;
+        animation-delay: -1287ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(1) .graphic {
+          width: 9px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(2) {
+        top: 40px;
+        left: 45px;
+        animation-delay: -1339ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(2) .graphic {
+          width: 7px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(3) {
+        top: 51px;
+        left: 50px;
+        animation-delay: -1114ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(3) .graphic {
+          width: 8px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(4) {
+        top: 53px;
+        left: 43px;
+        animation-delay: -1404ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(4) .graphic {
+          width: 10px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(5) {
+        top: 49px;
+        left: 43px;
+        animation-delay: -1076ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(5) .graphic {
+          width: 7px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(6) {
+        top: 46px;
+        left: 45px;
+        animation-delay: -1180ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(6) .graphic {
+          width: 8px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(7) {
+        top: 46px;
+        left: 46px;
+        animation-delay: -1204ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(7) .graphic {
+          width: 7px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(8) {
+        top: 47px;
+        left: 47px;
+        animation-delay: -1134ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(8) .graphic {
+          width: 6px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(9) {
+        top: 55px;
+        left: 49px;
+        animation-delay: -1717ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(9) .graphic {
+          width: 8px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(10) {
+        top: 37px;
+        left: 47px;
+        animation-delay: -1700ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(10) .graphic {
+          width: 6px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(11) {
+        top: 42px;
+        left: 45px;
+        animation-delay: -1086ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(11) .graphic {
+          width: 10px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(12) {
+        top: 53px;
+        left: 46px;
+        animation-delay: -1618ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(12) .graphic {
+          width: 7px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(13) {
+        top: 38px;
+        left: 42px;
+        animation-delay: -1265ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(13) .graphic {
+          width: 6px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(14) {
+        top: 45px;
+        left: 42px;
+        animation-delay: -1011ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(14) .graphic {
+          width: 7px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(15) {
+        top: 41px;
+        left: 46px;
+        animation-delay: -1123ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(15) .graphic {
+          width: 9px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(16) {
+        top: 37px;
+        left: 43px;
+        animation-delay: -1691ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(16) .graphic {
+          width: 6px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(17) {
+        top: 40px;
+        left: 49px;
+        animation-delay: -1035ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(17) .graphic {
+          width: 9px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(18) {
+        top: 54px;
+        left: 43px;
+        animation-delay: -1526ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(18) .graphic {
           width: 7px;
           height: 9px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(19) {
-        top: 55px;
-        left: 49px;
-        animation-delay: -1697ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(19) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(20) {
-        top: 50px;
+        top: 42px;
         left: 47px;
-        animation-delay: -1074ms; }
+        animation-delay: -1339ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(19) .graphic {
+          width: 6px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(20) {
+        top: 46px;
+        left: 41px;
+        animation-delay: -1526ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(20) .graphic {
           width: 10px;
           height: 8px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(21) {
-        top: 42px;
-        left: 47px;
-        animation-delay: -1563ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(21) .graphic {
-          width: 7px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(22) {
-        top: 54px;
-        left: 42px;
-        animation-delay: -1040ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(22) .graphic {
-          width: 6px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(23) {
-        top: 36px;
-        left: 41px;
-        animation-delay: -1635ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(23) .graphic {
-          width: 8px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(24) {
-        top: 37px;
-        left: 49px;
-        animation-delay: -1302ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(24) .graphic {
-          width: 10px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(25) {
-        top: 45px;
-        left: 50px;
-        animation-delay: -1707ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(25) .graphic {
-          width: 8px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(26) {
         top: 41px;
         left: 42px;
-        animation-delay: -1312ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(26) .graphic {
-          width: 6px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(27) {
-        top: 37px;
-        left: 46px;
-        animation-delay: -1233ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(27) .graphic {
-          width: 10px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(28) {
-        top: 48px;
-        left: 42px;
-        animation-delay: -1642ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(28) .graphic {
+        animation-delay: -1571ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(21) .graphic {
           width: 9px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(29) {
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(22) {
+        top: 37px;
+        left: 48px;
+        animation-delay: -1126ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(22) .graphic {
+          width: 8px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(23) {
         top: 47px;
         left: 45px;
-        animation-delay: -1324ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(29) .graphic {
+        animation-delay: -1226ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(23) .graphic {
           width: 9px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(30) {
-        top: 37px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(24) {
+        top: 40px;
         left: 45px;
-        animation-delay: -1294ms; }
+        animation-delay: -1721ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(24) .graphic {
+          width: 7px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(25) {
+        top: 48px;
+        left: 45px;
+        animation-delay: -1010ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(25) .graphic {
+          width: 7px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(26) {
+        top: 45px;
+        left: 47px;
+        animation-delay: -1202ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(26) .graphic {
+          width: 10px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(27) {
+        top: 40px;
+        left: 43px;
+        animation-delay: -1591ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(27) .graphic {
+          width: 9px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(28) {
+        top: 46px;
+        left: 44px;
+        animation-delay: -1558ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(28) .graphic {
+          width: 6px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(29) {
+        top: 39px;
+        left: 45px;
+        animation-delay: -1365ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(29) .graphic {
+          width: 10px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(30) {
+        top: 41px;
+        left: 43px;
+        animation-delay: -1094ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(30) .graphic {
-          width: 8px;
+          width: 9px;
           height: 10px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(31) {
-        top: 53px;
-        left: 41px;
-        animation-delay: -1323ms; }
+        top: 54px;
+        left: 50px;
+        animation-delay: -1635ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(31) .graphic {
-          width: 9px;
-          height: 8px; }
+          width: 8px;
+          height: 6px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(32) {
         top: 41px;
-        left: 42px;
-        animation-delay: -1647ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(32) .graphic {
-          width: 9px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(33) {
-        top: 43px;
-        left: 44px;
-        animation-delay: -1153ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(33) .graphic {
-          width: 10px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(34) {
-        top: 46px;
-        left: 50px;
-        animation-delay: -1018ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(34) .graphic {
-          width: 6px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(35) {
-        top: 55px;
-        left: 42px;
-        animation-delay: -1642ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(35) .graphic {
-          width: 8px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(36) {
-        top: 42px;
-        left: 45px;
-        animation-delay: -1345ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(36) .graphic {
-          width: 9px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(37) {
-        top: 46px;
         left: 41px;
-        animation-delay: -1014ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(37) .graphic {
-          width: 7px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(38) {
-        top: 46px;
-        left: 42px;
-        animation-delay: -1592ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(38) .graphic {
-          width: 9px;
-          height: 8px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(39) {
-        top: 38px;
-        left: 47px;
-        animation-delay: -1563ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(39) .graphic {
-          width: 7px;
-          height: 6px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(40) {
-        top: 37px;
-        left: 46px;
-        animation-delay: -1191ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(40) .graphic {
+        animation-delay: -1332ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(32) .graphic {
           width: 8px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(41) {
+          height: 8px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(33) {
         top: 40px;
         left: 50px;
-        animation-delay: -1678ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(41) .graphic {
-          width: 9px;
-          height: 9px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(42) {
-        top: 53px;
+        animation-delay: -1167ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(33) .graphic {
+          width: 8px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(34) {
+        top: 37px;
+        left: 43px;
+        animation-delay: -1070ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(34) .graphic {
+          width: 8px;
+          height: 8px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(35) {
+        top: 48px;
         left: 49px;
-        animation-delay: -1683ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(42) .graphic {
+        animation-delay: -1385ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(35) .graphic {
+          width: 7px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(36) {
+        top: 45px;
+        left: 43px;
+        animation-delay: -1346ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(36) .graphic {
           width: 7px;
           height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(37) {
+        top: 48px;
+        left: 43px;
+        animation-delay: -1219ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(37) .graphic {
+          width: 10px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(38) {
+        top: 52px;
+        left: 49px;
+        animation-delay: -1438ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(38) .graphic {
+          width: 7px;
+          height: 9px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(39) {
+        top: 38px;
+        left: 48px;
+        animation-delay: -1593ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(39) .graphic {
+          width: 10px;
+          height: 6px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(40) {
+        top: 45px;
+        left: 48px;
+        animation-delay: -1737ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(40) .graphic {
+          width: 9px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(41) {
+        top: 41px;
+        left: 45px;
+        animation-delay: -1149ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(41) .graphic {
+          width: 8px;
+          height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(42) {
+        top: 37px;
+        left: 44px;
+        animation-delay: -1794ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(42) .graphic {
+          width: 10px;
+          height: 8px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(43) {
-        top: 44px;
-        left: 46px;
-        animation-delay: -1717ms; }
+        top: 36px;
+        left: 48px;
+        animation-delay: -1010ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(43) .graphic {
           width: 8px;
-          height: 6px; }
+          height: 8px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(44) {
-        top: 42px;
-        left: 44px;
-        animation-delay: -1105ms; }
+        top: 46px;
+        left: 43px;
+        animation-delay: -1079ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(44) .graphic {
-          width: 6px;
-          height: 7px; }
+          width: 8px;
+          height: 10px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(45) {
-        top: 52px;
+        top: 51px;
         left: 50px;
-        animation-delay: -1093ms; }
+        animation-delay: -1792ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(45) .graphic {
           width: 10px;
-          height: 9px; }
+          height: 7px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(46) {
-        top: 45px;
-        left: 45px;
-        animation-delay: -1324ms; }
+        top: 42px;
+        left: 49px;
+        animation-delay: -1698ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(46) .graphic {
           width: 7px;
-          height: 7px; }
+          height: 8px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(47) {
-        top: 36px;
+        top: 49px;
         left: 47px;
-        animation-delay: -1127ms; }
+        animation-delay: -1524ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(47) .graphic {
-          width: 6px;
-          height: 10px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(48) {
-        top: 54px;
-        left: 41px;
-        animation-delay: -1147ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(48) .graphic {
-          width: 7px;
-          height: 7px; }
-      .ship .body .waves .oarwaves.-right .wave:nth-child(49) {
-        top: 37px;
-        left: 46px;
-        animation-delay: -1334ms; }
-        .ship .body .waves .oarwaves.-right .wave:nth-child(49) .graphic {
           width: 10px;
           height: 7px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(48) {
+        top: 38px;
+        left: 45px;
+        animation-delay: -1545ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(48) .graphic {
+          width: 10px;
+          height: 10px; }
+      .ship .body .waves .oarwaves.-right .wave:nth-child(49) {
+        top: 43px;
+        left: 46px;
+        animation-delay: -1220ms; }
+        .ship .body .waves .oarwaves.-right .wave:nth-child(49) .graphic {
+          width: 9px;
+          height: 10px; }
       .ship .body .waves .oarwaves.-right .wave:nth-child(50) {
-        top: 37px;
-        left: 47px;
-        animation-delay: -1210ms; }
+        top: 48px;
+        left: 46px;
+        animation-delay: -1484ms; }
         .ship .body .waves .oarwaves.-right .wave:nth-child(50) .graphic {
-          width: 7px;
-          height: 8px; }
+          width: 6px;
+          height: 10px; }
   .ship .oars {
     position: absolute;
     top: -30px;

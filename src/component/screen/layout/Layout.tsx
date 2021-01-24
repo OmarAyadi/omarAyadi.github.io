@@ -7,16 +7,15 @@ import {NavBar} from "../../navBar";
 
 
 type LayoutProps = {
-    useSplash : boolean,
     children: React.ReactNode,
 }
 
-function Layout({useSplash, children}: LayoutProps) {
+function Layout({children}: LayoutProps) {
     const [loading, SplashScreen] = useSplashScreen()
 
     return (
         <>
-            {useSplash && loading ? SplashScreen :
+            {loading ? SplashScreen :
                 <div className="layout">
                     <div className="layout-top">
                         <NavBar/>

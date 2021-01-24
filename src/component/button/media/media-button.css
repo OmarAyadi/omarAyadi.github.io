@@ -25,18 +25,6 @@
     justify-content: center;
     align-items: center;
     transition: opacity .15s ease-in, top .15s ease-in, width .15s ease-in; }
-    .media-button-wrapper .media-button-tooltip::after {
-      content: "";
-      width: 20px;
-      height: 20px;
-      background: var(--theme-inverse-color);
-      border-radius: 3px;
-      position: absolute;
-      left: 50%;
-      margin-left: -10px;
-      bottom: -8px;
-      transform: rotate(45deg);
-      z-index: -9; }
   .media-button-wrapper .media-button-icon {
     cursor: pointer;
     font-size: 40px;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './not-found-screen.scss'
 import {HoverButton} from "../../button";
+import {Link} from "react-router-dom";
 
 function NotFoundScreen() {
     return (
@@ -33,10 +34,14 @@ function NotFoundScreen() {
 
                 <div className="nfs-direction">
                     <div className="nfs-direction-text">Oops. The page you're looking for doesn't exist.</div>
-                    <HoverButton
-                        link="/"
-                        text="Back Home"
-                    />
+                    <Link to={"/"}>
+                        <HoverButton
+                            onClick={() => {
+                            }}
+                            text="Back Home"
+                        />
+                    </Link>
+
                 </div>
             </div>
         </>

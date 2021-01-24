@@ -7,6 +7,7 @@ import {Profile} from "./component/profile";
 import Test from "./component/Test";
 import {About} from "./component/about";
 import {Work} from "./component/work";
+import {Skills} from "./component/skill";
 
 function App() {
 
@@ -18,8 +19,7 @@ function App() {
                     <Route path="/" exact component={Profile}/>
                     <Route path="/about" component={About}/>
                     <Route path="/work" exact component={Work}/>
-                    <Route path="/projects" exact component={Profile}/>
-                    <Route path="/test" exact component={Test}/>
+                    <Route path="/skills" exact component={Skills}/>
                     <Route component={NotFoundScreen}></Route>
                 </Switch>
             </Router>

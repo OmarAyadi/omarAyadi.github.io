@@ -86,12 +86,13 @@
   .work_container {
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-left: 90px; }
 
   .work_animation {
     padding: 70px 70px 0 0; } }
 @media (max-width: 500px) {
   .work_container {
-    transform: scale(0.9); } }
+    transform: scale(0.8); } }
 
 /*# sourceMappingURL=work.css.map */

@@ -5,10 +5,12 @@ import {useThemeToggle} from "./theme";
 
 function Test() {
     const {themeToggle} = useThemeToggle()
+
+
     return (
         <div className="">
             {themeToggle}
-            Hello
+
         </div>
     );
 }

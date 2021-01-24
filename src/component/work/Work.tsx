@@ -7,7 +7,7 @@ import {Layout} from "../screen";
 function Work() {
 
     return (
-        <Layout useSplash={false}>
+        <Layout>
             <div className="work_container">
                 <ul className="work_elements">
                     {User_Work.map(

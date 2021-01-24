@@ -10,7 +10,7 @@ function About() {
     const {award, description} = About_Me
 
     return (
-        <Layout useSplash={true}>
+        <Layout>
             <div className="about-content about-content-active">
                 <div className="about-wrapper">
                     <div className="about-title">BIO</div>

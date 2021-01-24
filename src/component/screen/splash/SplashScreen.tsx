@@ -4,9 +4,14 @@ import './splash_screen.scss'
 
 export const useSplashScreen = () => {
 
+    // Value used for testing purposes
+    // set this value to false
+    // to remove all pages splash screen
     const [loading, setLoading] = useState(true)
 
+
     useEffect(() => {
+
         // let the splash_screen available for 4.5sec
         const interval = setInterval(() => {
             setLoading(false)
@@ -27,7 +32,7 @@ export const useSplashScreen = () => {
                 </div>
                 <div className="splash-screen-box-role">
                     <div className="splash-screen-box-block"/>
-                    <p className="splash-screen-box-block-job" >{job}</p>
+                    <p className="splash-screen-box-block-job">{job}</p>
                 </div>
             </div>
         </div>

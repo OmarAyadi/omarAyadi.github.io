@@ -3,6 +3,7 @@
   color: var(--theme-inverse-color);
   overflow: hidden;
   width: 210px;
+  transition: color .5s linear;
   font-size: 1.6rem;
   line-height: 40px; }
   .spin-text__container {

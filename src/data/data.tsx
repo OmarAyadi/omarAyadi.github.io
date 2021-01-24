@@ -148,37 +148,46 @@ export const User_Work = [
     }
 ]
 
-export const Skills_Data = {
-    technical: [
-        "Java",
-        "Kotlin",
-        "Spring Boot",
-        "Python",
-        "Golang",
-        "C",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Rest",
-        "Grpc",
-        "Git",
-        "Docker",
-        "kubernetes",
-        "Sql",
-        "Nosql",
-        "Windows",
-        "Ubuntu",
-        "Photoshop",
-        "Illustrator"
-    ],
-    soft: [
-        "Leadership",
-        "Creativity",
-        "Problem Solving",
-        "Collaboration and Communication",
-        "Decision Making",
-        "Management"
-    ]
-}
-
+export const User_Skills = [
+    {
+        name: "BackEnd",
+        skills: [
+            "Java",
+            "Kotlin",
+            "Spring Boot",
+            "Python",
+            "Golang",
+            "Rest",
+            "Grpc"
+        ]
+    },
+    {
+        name: "FrontEnd",
+        skills: [
+            "Html",
+            "React",
+            "Css/Sass",
+            "JavaScript",
+            "TypeScript"
+        ]
+    },
+    {
+        name: "CI/CD",
+        skills: [
+            "Git",
+            "Docker",
+            "Kubernetes"
+        ]
+    },
+    {
+        name: "Database",
+        skills: [
+            "Sql",
+            "NoSql",
+            "Mongo",
+            "Redis",
+            "Postgres"
+        ]
+    }
+]
 
