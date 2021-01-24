@@ -4,6 +4,7 @@
   @include flex-center(row);
   justify-content: space-around;
   width: 100%;
+  height: 100%;
   flex-wrap: wrap;
   align-content: space-around;
   cursor: default;
@@ -12,7 +13,6 @@
     @include flex-center(column);
     display: flex;
     min-width: 500px;
-    width: 44vw;
   }
 
   .profile_content_info {
@@ -29,33 +29,22 @@
 
     .profile_job {
       font-size: 40px;
-      padding-bottom: 30px;
+      padding-bottom: 20px;
     }
   }
 
 
-  .profile_about {
-    padding-left: 1vw;
-  }
-
   .profile_animation {
-    height: 500px;
+    height: 400px;
     width: 400px;
     padding-top: 50px;
   }
 }
 
 @media (max-width: 1024px) {
-
   .profile{
-    @include flex-center(column);
-  }
-  .profile_content {
-    padding: 80px 0px 20px;
-  }
-  .profile_animation {
-    padding-top: 50px;
-    padding-bottom: 150px;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

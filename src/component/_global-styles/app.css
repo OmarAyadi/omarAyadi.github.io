@@ -24,6 +24,7 @@ body {
   color: var(--theme-inverse-color);
   font-family: 'Terminal Dosis', serif;
   transition: background-color 0.5s linear, color 0.5s linear;
-  height: 100vh; }
+  height: 100vh;
+  width: 100vw; }
 
 /*# sourceMappingURL=app.css.map */

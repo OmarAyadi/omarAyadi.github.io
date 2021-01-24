@@ -4,8 +4,7 @@ import './splash_screen.scss'
 
 export const useSplashScreen = () => {
 
-    // Value used for testing purposes
-    // set this value to false
+    // for testing purposes set this value to false
     // to remove all pages splash screen
     const [loading, setLoading] = useState(true)
 
